@@ -30,11 +30,7 @@ public class Ball : MonoBehaviour {
     }
     void OnDisable()
     {
-        GameScene.Instance.OnThrow -= OnThrow;
-        GameScene.Instance.OnSelect -= OnSelect;
-        GameScene.Instance.OnDeselect -= OnDeselect;
-        GameScene.Instance.OnRotate -= OnRotate;
-        GameScene.Instance.DisableRotate -= DisableRotate;
+        
     }
 
     void Start () {
@@ -110,10 +106,10 @@ public class Ball : MonoBehaviour {
         if (coll.gameObject.tag == "Ball" && coll.gameObject.GetComponent<Ball>().value == value)
         {
 
-            manager.currentCombo = (int)manager.moveKeys[moveKey];
-            manager.currentCombo++;
-            manager.moveKeys[moveKey] = manager.currentCombo;
-            if (manager.currentCombo > 1) StartCoroutine(showCombo(manager.currentCombo));
+ //           manager.currentCombo = (int) manager.moveKeys[moveKey];
+ //           manager.currentCombo++;
+//            manager.moveKeys[moveKey] = manager.currentCombo;
+//            if (manager.currentCombo > 1) StartCoroutine(showCombo(manager.currentCombo));
 
             if (coll.gameObject.GetComponent<Rigidbody2D>().velocity.magnitude > GetComponent<Rigidbody2D>().velocity.magnitude)
             {
@@ -217,6 +213,11 @@ public class Ball : MonoBehaviour {
         }
         manager.totalPoints += value* manager.currentCombo;
         manager.totalBalls--;
+        GameScene.Instance.OnThrow -= OnThrow;
+        GameScene.Instance.OnSelect -= OnSelect;
+        GameScene.Instance.OnDeselect -= OnDeselect;
+        GameScene.Instance.OnRotate -= OnRotate;
+        GameScene.Instance.DisableRotate -= DisableRotate;
         Destroy(gameObject);
      
     }

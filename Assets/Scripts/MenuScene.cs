@@ -6,8 +6,8 @@ public class MenuScene : MonoBehaviour {
     public GameObject scoreInfo;
 	// Use this for initialization
 	void Start () {
-        SaveLoad.bestScore = SaveLoad.load();
-        scoreInfo.GetComponent<Text>().text = ""+SaveLoad.bestScore;
+        SaveLoad.loadGame();
+        scoreInfo.GetComponent<Text>().text = ""+ GameSettings.state.bestScore;
 
     }
 	
@@ -18,5 +18,13 @@ public class MenuScene : MonoBehaviour {
 
     public void startGame() {
         SceneManager.LoadScene(1);
+    }
+
+    public void switchMusic()
+    {
+        if (MainMusic.source.isPlaying)
+            MainMusic.source.Stop();
+        else
+            MainMusic.source.Play();
     }
 }

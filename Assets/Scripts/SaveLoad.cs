@@ -5,32 +5,29 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveLoad {
 
-    public static int bestScore;
-    public static void save(int points)
+    
+    public static void saveGame(int points)
     {
-
-        if (points > bestScore)
+        if (points > GameSettings.state.bestScore)
         {
             BinaryFormatter bf = new BinaryFormatter();
-            FileStream file = File.Create(Application.persistentDataPath + "/playerInfo.dat");
-            bestScore = points;
-            bf.Serialize(file, bestScore);
+            FileStream file = File.Create(Application.persistentDataPath + "/gameInfo.dat");
+            GameSettings.state.bestScore = points;
+            bf.Serialize(file, GameSettings.state);
             file.Close();
         }
 
     }
 
-    public static int load()
+    public static void loadGame()
     {
-        int score = 0;
-        if (File.Exists(Application.persistentDataPath + "/playerInfo.dat"))
+        if (File.Exists(Application.persistentDataPath + "/gameInfo.dat"))
         {
             BinaryFormatter bf = new BinaryFormatter();
-            FileStream file = File.Open(Application.persistentDataPath + "/playerInfo.dat", FileMode.Open);
-            int data = (int)bf.Deserialize(file);
+            FileStream file = File.Open(Application.persistentDataPath + "/gameInfo.dat", FileMode.Open);
+            GameState data = (GameState) bf.Deserialize(file);
             file.Close();
-            score = data;
+            GameSettings.state = data;
         }
-        return score;
     }
 }

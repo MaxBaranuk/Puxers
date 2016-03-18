@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class GameScene : MonoBehaviour {
 
@@ -50,7 +49,7 @@ public class GameScene : MonoBehaviour {
         colors = new Color[12];
         for (int i = 0; i < colors.Length; i++)
         {
-            colors[i] = new Color(UnityEngine.Random.value, UnityEngine.Random.value, UnityEngine.Random.value, 1);
+            colors[i] = new Color(Random.value, Random.value, Random.value, 1);
         }
 
         moveKeys = new Hashtable();
@@ -157,7 +156,7 @@ public class GameScene : MonoBehaviour {
         }
     }
     void loseGame() {
-        SaveLoad.save(totalPoints);
+        SaveLoad.saveGame(totalPoints);
         GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("Ball");
         for (var i = 0; i < gameObjects.Length; i++) {
             Destroy(gameObjects[i]);
