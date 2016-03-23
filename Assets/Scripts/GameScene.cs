@@ -15,17 +15,17 @@ public class GameScene : MonoBehaviour {
     private static GameScene instance;
     public Hashtable moveKeys;
 
-//    public Sprite[] balls;
     public GameObject ball;
     public GameObject bonus;
     public GameObject empty;
     public GameObject info;
-    public GameObject ballsInfo;
-    public GameObject pointsInfo;
+//    public GameObject ballsInfo;
+//    public GameObject pointsInfo;
     public GameObject losePanel;
+    
 
     GameObject selectedBall;
-    Vector2 startSwipePos;
+    Vector3 startSwipePos;
     Vector3 startMousePos;
     public int currentCombo;
 
@@ -33,6 +33,8 @@ public class GameScene : MonoBehaviour {
     public int totalBalls = 0;
     public int totalPoints = 0;
     public Color[] colors;
+    public GameObject lifesPanel;
+    GameObject[] lifes;
 
     public static GameScene Instance
     {
@@ -51,7 +53,10 @@ public class GameScene : MonoBehaviour {
         {
             colors[i] = new Color(Random.value, Random.value, Random.value, 1);
         }
-
+        lifes = new GameObject[12];
+        for (int i = 0; i < 12; i++) {
+            lifes[i] = lifesPanel.GetComponent<RectTransform>().Find(""+(i+1)).gameObject;
+        }
         moveKeys = new Hashtable();
         moveKeys[0] = 0;
         for (int i = 0; i < 6; i++) {
@@ -62,12 +67,24 @@ public class GameScene : MonoBehaviour {
 	
 	void Update () {
         if (totalBalls > 12) loseGame();
-        ballsInfo.GetComponent<Text>().text = "" + totalBalls + "/12";
-        pointsInfo.GetComponent<Text>().text = "" + totalPoints;
+        showLifes();
+//        ballsInfo.GetComponent<Text>().text = "" + totalBalls + "/12";
+ //       pointsInfo.GetComponent<Text>().text = "" + totalPoints;
         //             mobileInput();
+
                        editorInput();
         if (Input.GetKeyDown(KeyCode.Escape)) GameObject.Find("UIManager").GetComponent<UIManager>().pause();
         }
+
+    void showLifes() {
+        for (int i = 0; i < 12; i++) {
+            Color c = lifes[i].GetComponent<Image>().color;
+            c.a = 1;
+            if (i < totalBalls) c.a = 1;
+            else c.a = 0.2f;
+            lifes[i].GetComponent<Image>().color = c;
+        }
+    }
 
     public void createBall() {
         StartCoroutine(spawnItem(ball));
@@ -80,7 +97,7 @@ public class GameScene : MonoBehaviour {
 
     public IEnumerator addBalls() {
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
         if (Random.value > 0.5|totalBalls>9) createBall();
         else {
             createBall();
@@ -96,28 +113,29 @@ public class GameScene : MonoBehaviour {
                 if (hit.collider.tag == "Ball") {
                     OnSelect(hit.transform.gameObject);
                     selectedBall = hit.collider.gameObject;
-                    startMousePos = Input.mousePosition;
+                    startMousePos = Camera.main.ScreenToWorldPoint((Input.mousePosition));
                 } 
                 
             }           
         }
         if (Input.GetMouseButton(0)&& selectedBall)
         {
-             Vector3 dir = Input.mousePosition - startMousePos;
-            info.GetComponent<Text>().text = "" + dir.magnitude;
-            if (dir.magnitude > 25) OnRotate(selectedBall, dir);
-            else DisableRotate(selectedBall, dir);
+             Vector3 dir = Camera.main.ScreenToWorldPoint((Input.mousePosition)) - startMousePos;
+//            info.GetComponent<Text>().text = "" + dir.magnitude;
+            float force = dir.magnitude;
+            if (force > 2.5f) dir = dir * 2.5f / force;
+            OnRotate(selectedBall, dir);
+//            if (dir.magnitude > 25) OnRotate(selectedBall, dir);
+//            else DisableRotate(selectedBall, dir);
         }
 
         if (Input.GetMouseButtonUp(0)&& selectedBall)
         {            
-            Vector3 dir = Input.mousePosition - startMousePos;
-
-            if (dir.magnitude > 25)
-            {
-                if (dir.magnitude > 50f) dir = dir.normalized*50;
-                OnThrow(selectedBall, dir/2);
-            }
+            Vector3 dir = Camera.main.ScreenToWorldPoint((Input.mousePosition)) - startMousePos;
+            float force = dir.magnitude;
+            if (force > 2.5f) dir = dir * 2.5f / force;
+           
+            OnThrow(selectedBall, dir * 15);
             OnDeselect(selectedBall);
             selectedBall = null;
             
@@ -132,24 +150,31 @@ public class GameScene : MonoBehaviour {
                 if (hit.collider.tag == "Ball") {
                     OnSelect(hit.transform.gameObject);
                     selectedBall = hit.collider.gameObject;
-                    startSwipePos = Input.GetTouch(0).position;
+                    startSwipePos = Camera.main.ScreenToWorldPoint((Input.GetTouch(0).position));
                 }
             }
         }
         if (Input.GetTouch(0).phase == TouchPhase.Moved && selectedBall)
         {
-            Vector3 dir = Input.GetTouch(0).position - startSwipePos;
-            info.GetComponent<Text>().text = "" + dir;
+            Vector3 dir = Camera.main.ScreenToWorldPoint((Input.GetTouch(0).position)) - startSwipePos;
+//            info.GetComponent<Text>().text = "" + dir;
+            float force = dir.magnitude;
+            if (force > 2.5f) dir = dir * 2.5f / force;
             OnRotate(selectedBall, dir);
         }
         if (Input.GetTouch(0).phase == TouchPhase.Ended && selectedBall)
         {
-            Vector2 dir = Input.GetTouch(0).position - startSwipePos;
-            if (dir.magnitude > 0.5f)
-            {
-                if (dir.magnitude > 25f) dir = dir.normalized * 25;
-                OnThrow(selectedBall, dir);
-            }
+            Vector3 dir = Camera.main.ScreenToWorldPoint((Input.GetTouch(0).position)) - startSwipePos;
+            float force = dir.magnitude;
+            if (force > 2.5f) dir = dir * 2.5f / force;
+
+            OnThrow(selectedBall, dir * 15);
+            //            if (dir.magnitude > 0.5f)
+            //            {
+            //                if (dir.magnitude > 25f) dir = dir.normalized * 25;
+
+            ////                GetComponent<AudioSource>().PlayOneShot(contactSound);
+            //            }
             OnDeselect(selectedBall);
             selectedBall = null;
 

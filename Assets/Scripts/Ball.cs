@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public class Ball : MonoBehaviour {
 
     TextMesh valText;
-//    bool isChecked;
     int value = 1;
     int moveKey = 0;
     GameScene manager;
     public Sprite crown;
 //    TextMesh velInf;
     public Vector2 velosity;
-   
+    public AudioClip contactSound;
+    public AudioClip shotSound;
 
     void Awake()
     {
@@ -24,17 +24,11 @@ public class Ball : MonoBehaviour {
         GameScene.Instance.OnDeselect += OnDeselect;
         GameScene.Instance.DisableRotate += DisableRotate;
         GameScene.Instance.OnRotate += OnRotate;
-        StartCoroutine(spawn());
-
-        
+        StartCoroutine(spawn());        
     }
-    void OnDisable()
-    {
-        
-    }
-
+    
     void Start () {
- //       velInf = transform.Find("vel").GetComponent<TextMesh>();
+//        velInf = transform.Find("vel").GetComponent<TextMesh>();
         value =(int) Math.Pow(2, UnityEngine.Random.Range(0,6));
         changeValue(1);
     }
@@ -44,20 +38,32 @@ public class Ball : MonoBehaviour {
         velosity = GetComponent<Rigidbody2D>().velocity;
     }
 
+    IEnumerator changeColor(Color c) {
+        Color prevCol = gameObject.GetComponent<SpriteRenderer>().color;
+        float stepR = (c.r - prevCol.r)/50;
+        float stepG = (c.g - prevCol.g)/50;
+        float stepB = (c.b - prevCol.b)/50;
+        for (int i = 0; i < 50; i++) {
+            prevCol = new Color(prevCol.r+stepR, prevCol.g + stepG, prevCol.b + stepB);
+            gameObject.GetComponent<SpriteRenderer>().color = prevCol;
+            gameObject.transform.Find("ring").GetComponent<SpriteRenderer>().color = prevCol;
+            yield return new WaitForSeconds(0.01f);
+        }
+        gameObject.GetComponent<SpriteRenderer>().color = c;
+        gameObject.transform.Find("ring").GetComponent<SpriteRenderer>().color = c;
+    }
+    
     public void changeValue(int v) {
 
         for (int i = 0; i < v; i++) {
             value *= 2;
-        }
-     
+        } 
         valText.text = "" + value;
         if (value >= 4096) {
             StartCoroutine(resizeBall());
             gameObject.GetComponent<SpriteRenderer>().sprite = crown;
         } 
-        //       else gameObject.GetComponent<SpriteRenderer>().sprite = manager.balls[(int)(Math.Log(value, 2) - 1)];
-        else gameObject.GetComponent<SpriteRenderer>().color = manager.colors[(int)(Math.Log(value, 2) - 1)];
-
+        else StartCoroutine(changeColor(manager.colors[(int)(Math.Log(value, 2) - 1)]));
     }
 
     public void setValue(int v)
@@ -65,74 +71,44 @@ public class Ball : MonoBehaviour {
         value = v;
         valText.text = "" + value;
         if (value >= 4096) StartCoroutine(resizeBall());
-//        else gameObject.GetComponent<SpriteRenderer>().sprite = manager.balls[(int)(Math.Log(value, 2) - 1)];
         else gameObject.GetComponent<SpriteRenderer>().color = manager.colors[(int)(Math.Log(value, 2) - 1)];
     }
 
-    void OnTriggerEnter2D(Collider2D coll)
+    void OnTriggerStay2D(Collider2D coll)
     {
-        if (coll.gameObject.tag == "Ball" && coll.gameObject.GetComponent<Ball>().value == value)
-       {
-
-            manager.currentCombo = (int)manager.moveKeys[moveKey];
-            manager.currentCombo++;
-            manager.moveKeys[moveKey] = manager.currentCombo;
-            if (manager.currentCombo > 1) StartCoroutine(showCombo(manager.currentCombo));
-
-            if (coll.gameObject.GetComponent<Rigidbody2D>().velocity.magnitude > GetComponent<Rigidbody2D>().velocity.magnitude)
-            {
-                coll.gameObject.GetComponent<Ball>().changeValue(1);
-                gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
-                StartCoroutine(resizeBall());
-//                gameObject.GetComponent<Ball>().delete();
-                gameObject.GetComponent<CircleCollider2D>().enabled = false;
-            }
-            else {
-                changeValue(1);
-                coll.gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
-                coll.gameObject.GetComponent<Ball>().StartCoroutine(coll.gameObject.GetComponent<Ball>().resizeBall());
-                coll.gameObject.GetComponent<CircleCollider2D>().enabled = false;
-            }
+        if (coll.gameObject.tag == "Ball")
+        {
+            if (moveKey > coll.gameObject.GetComponent<Ball>().moveKey) coll.gameObject.GetComponent<Ball>().moveKey = moveKey;
+            else moveKey = coll.gameObject.GetComponent<Ball>().moveKey;
         }
-        else {
-            if (coll.gameObject.tag != "Empty"&& coll.gameObject.tag != "Bonus") {
-                contactBall(coll);
-            }
-           
-        }
-    }
 
-    void OnTriggerStay2D(Collider2D coll) {
         if (coll.gameObject.tag == "Ball" && coll.gameObject.GetComponent<Ball>().value == value)
         {
-
- //           manager.currentCombo = (int) manager.moveKeys[moveKey];
- //           manager.currentCombo++;
-//            manager.moveKeys[moveKey] = manager.currentCombo;
-//            if (manager.currentCombo > 1) StartCoroutine(showCombo(manager.currentCombo));
-
             if (coll.gameObject.GetComponent<Rigidbody2D>().velocity.magnitude > GetComponent<Rigidbody2D>().velocity.magnitude)
             {
                 coll.gameObject.GetComponent<Ball>().changeValue(1);
                 gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
                 StartCoroutine(resizeBall());
-                //                gameObject.GetComponent<Ball>().delete();
+                manager.currentCombo = (int)manager.moveKeys[coll.gameObject.GetComponent<Ball>().moveKey];
+                manager.currentCombo++;
+                manager.moveKeys[coll.gameObject.GetComponent<Ball>().moveKey] = manager.currentCombo;
+                if (manager.currentCombo > 1) StartCoroutine(showCombo(manager.currentCombo));
                 gameObject.GetComponent<CircleCollider2D>().enabled = false;
             }
             else {
+                manager.currentCombo = (int)manager.moveKeys[moveKey];
+                manager.currentCombo++;
+                manager.moveKeys[moveKey] = manager.currentCombo;
+                if (manager.currentCombo > 1) StartCoroutine(showCombo(manager.currentCombo));
                 changeValue(1);
                 coll.gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
                 coll.gameObject.GetComponent<Ball>().StartCoroutine(coll.gameObject.GetComponent<Ball>().resizeBall());
                 coll.gameObject.GetComponent<CircleCollider2D>().enabled = false;
             }
         }
-        else {
-            if (coll.gameObject.tag != "Empty" && coll.gameObject.tag != "Bonus")
-            {
-                contactBall(coll);
-            }
-
-        }
+        else if (coll.gameObject.tag != "Empty" && coll.gameObject.tag != "Bonus") contactBall(coll);
+//        else GetComponent<AudioSource>().PlayOneShot(contactSound);
+        
     }
 
     void contactBall(Collider2D c) {
@@ -142,18 +118,16 @@ public class Ball : MonoBehaviour {
 
     void OnCollisionExit2D(Collision2D coll)
     {
+        GetComponent<AudioSource>().PlayOneShot(contactSound);
         GetComponent<CircleCollider2D>().isTrigger = true;
-        if (coll.gameObject.tag == "Ball") {
-            coll.collider.isTrigger = true;
-            if (moveKey > coll.gameObject.GetComponent<Ball>().moveKey) coll.gameObject.GetComponent<Ball>().moveKey = moveKey;
-            else moveKey = coll.gameObject.GetComponent<Ball>().moveKey;
-        } 
+        if (coll.gameObject.tag == "Ball") coll.collider.isTrigger = true;
         else coll.collider.isTrigger = false;
     }
 
     void OnThrow(GameObject g, Vector3 dir) {
         if (g == gameObject)
         {
+            GetComponent<AudioSource>().PlayOneShot(shotSound);
             g.GetComponent<Rigidbody2D>().AddForce(-dir, ForceMode2D.Impulse);
             manager.StartCoroutine(manager.addBalls());           
             manager.moveCounter++;
@@ -161,35 +135,20 @@ public class Ball : MonoBehaviour {
             moveKey = manager.moveCounter;
         }
     }
-    void OnSelect(GameObject g)
-    {
-        if (g == gameObject) {
-//            isChecked = true;
-            g.GetComponentInChildren<BallAnimation>().setPressed();
-        }
+    void OnSelect(GameObject g){
+        if (g == gameObject) g.GetComponentInChildren<BallAnimation>().setPressed();       
     }
-    void OnDeselect(GameObject g)
-    {
-        if (g == gameObject)
-        {
-//            isChecked = false;
-            g.GetComponentInChildren<BallAnimation>().setUnpressed();
-        }
+
+    void OnDeselect(GameObject g){
+        if (g == gameObject) g.GetComponentInChildren<BallAnimation>().setUnpressed();
     }
 
     void OnRotate(GameObject g, Vector3 dir) {
-        if (g == gameObject)
-        {
-            g.GetComponentInChildren<BallAnimation>().setPulling(dir);
-        }
+        if (g == gameObject) g.GetComponentInChildren<BallAnimation>().setPulling(dir);
     }
 
-    void DisableRotate(GameObject g, Vector3 dir)
-    {
-        if (g == gameObject)
-        {
-            g.GetComponentInChildren<BallAnimation>().setUnPulling();
-        }
+    void DisableRotate(GameObject g, Vector3 dir){
+        if (g == gameObject) g.GetComponentInChildren<BallAnimation>().setUnPulling();
     }
 
     IEnumerator spawn() {
@@ -199,16 +158,13 @@ public class Ball : MonoBehaviour {
             yield return new WaitForSeconds(0.01f);
         }
         GetComponent<CircleCollider2D>().enabled = true;
+        gameObject.tag = "Ball";
     }
-
-    //void delete() {
-    //    Destroy(gameObject);
-    //}
 
     public IEnumerator resizeBall() {
         if (value > 4096) yield return new WaitForSeconds(1);
         while (transform.localScale.x > 0) {
-            transform.localScale = new Vector3(transform.localScale.x - 0.01f, transform.localScale.y - 0.01f, 0.2f);
+            transform.localScale = new Vector3(transform.localScale.x - 0.02f, transform.localScale.y - 0.02f, 0.2f);
             yield return new WaitForSeconds(0.01f);
         }
         manager.totalPoints += value* manager.currentCombo;
@@ -227,8 +183,8 @@ public class Ball : MonoBehaviour {
         yield return new WaitForSeconds(3f);
         manager.info.GetComponent<Text>().text = "";
     }
-    public int getValue() {
 
+    public int getValue() {
         return value;
     }
 }
