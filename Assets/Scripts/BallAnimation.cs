@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BallAnimation : MonoBehaviour {
 
-    bool isChecked;
+//    bool isChecked;
 //    public Sprite ring;
 //    public Sprite ringArr;
 
@@ -38,7 +38,7 @@ public class BallAnimation : MonoBehaviour {
     }
 
     IEnumerator pressed() {
-        isChecked = true;
+ //       isChecked = true;
         //while (transform.localScale.x < 7f) {
         //    transform.localScale = new Vector3(transform.localScale.x + 0.05f, transform.localScale.y + 0.05f, 0.2f);
         //    if (!isChecked) break;
@@ -47,7 +47,7 @@ public class BallAnimation : MonoBehaviour {
     }
 
     IEnumerator unpressed(){
-        isChecked = false;
+//        isChecked = false;
         while (transform.localScale.y > 0f)
         {
             transform.localScale = new Vector3(0.95f, transform.localScale.y - 1f, 0.2f);

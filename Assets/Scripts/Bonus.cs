@@ -4,7 +4,7 @@ using System;
 
 public class Bonus : MonoBehaviour {
 
-    public enum Type {Bonus, MegaBonus, Bomb};
+    public enum Type {Multiple, Same, Bomb };
     public int value;
     TextMesh valText;
     GameScene manager;
@@ -13,10 +13,10 @@ public class Bonus : MonoBehaviour {
     // Use this for initialization
     void Start () {
         Destroy(gameObject, 6);
-        type =(Type) UnityEngine.Random.Range(0,3);
+//        type =(Type) UnityEngine.Random.Range(0,3);
         manager = GameObject.Find("SceneManager").GetComponent<GameScene>();
         valText = GetComponentInChildren<TextMesh>();
-        gameObject.GetComponent<SpriteRenderer>().sprite = images[(int)type];
+//        gameObject.GetComponent<SpriteRenderer>().sprite = images[(int)type];
         switch ((int)type) {
             case 0:
                 value = UnityEngine.Random.Range(2, 6);
@@ -52,10 +52,10 @@ public class Bonus : MonoBehaviour {
             manager.currentCombo = 1;
             
             switch (type) {
-                case Type.Bonus:
+                case Type.Multiple:
                     coll.gameObject.GetComponent<Ball>().changeValue(value);
                     break;
-                case Type.MegaBonus:
+                case Type.Same:
                     GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
                     Debug.Log("size" + balls.Length);
                     for (int i = 0; i < balls.Length; i++){

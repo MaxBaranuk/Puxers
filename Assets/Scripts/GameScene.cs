@@ -16,11 +16,12 @@ public class GameScene : MonoBehaviour {
     public Hashtable moveKeys;
 
     public GameObject ball;
-    public GameObject bonus;
+    public GameObject [] bonus;
     public GameObject empty;
     public GameObject info;
 //    public GameObject ballsInfo;
-//    public GameObject pointsInfo;
+    public GameObject pointsInfo;
+//    public GameObject pointsInfo2;
     public GameObject losePanel;
     
 
@@ -69,7 +70,7 @@ public class GameScene : MonoBehaviour {
         if (totalBalls > 12) loseGame();
         showLifes();
 //        ballsInfo.GetComponent<Text>().text = "" + totalBalls + "/12";
- //       pointsInfo.GetComponent<Text>().text = "" + totalPoints;
+        pointsInfo.GetComponent<Text>().text = "" + totalPoints;
         //             mobileInput();
 
                        editorInput();
@@ -92,7 +93,7 @@ public class GameScene : MonoBehaviour {
     }
 
     public void createBonus() {
-        StartCoroutine(spawnItem(bonus));
+        StartCoroutine(spawnItem(bonus[Random.Range(0,3)]));
     }
 
     public IEnumerator addBalls() {

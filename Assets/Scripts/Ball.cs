@@ -10,6 +10,7 @@ public class Ball : MonoBehaviour {
     int moveKey = 0;
     GameScene manager;
     public Sprite crown;
+    public GameObject effect;
 //    TextMesh velInf;
     public Vector2 velosity;
     public AudioClip contactSound;
@@ -64,6 +65,7 @@ public class Ball : MonoBehaviour {
             gameObject.GetComponent<SpriteRenderer>().sprite = crown;
         } 
         else StartCoroutine(changeColor(manager.colors[(int)(Math.Log(value, 2) - 1)]));
+        Instantiate(effect, transform.position, Quaternion.identity);
     }
 
     public void setValue(int v)
@@ -71,7 +73,12 @@ public class Ball : MonoBehaviour {
         value = v;
         valText.text = "" + value;
         if (value >= 4096) StartCoroutine(resizeBall());
-        else gameObject.GetComponent<SpriteRenderer>().color = manager.colors[(int)(Math.Log(value, 2) - 1)];
+        else StartCoroutine(changeColor(manager.colors[(int)(Math.Log(value, 2) - 1)]));
+        Instantiate(effect, transform.position, Quaternion.identity);
+    }
+
+    public void setSame() {
+
     }
 
     void OnTriggerStay2D(Collider2D coll)
@@ -163,8 +170,9 @@ public class Ball : MonoBehaviour {
 
     public IEnumerator resizeBall() {
         if (value > 4096) yield return new WaitForSeconds(1);
+        GetComponent<CircleCollider2D>().isTrigger = true;
         while (transform.localScale.x > 0) {
-            transform.localScale = new Vector3(transform.localScale.x - 0.02f, transform.localScale.y - 0.02f, 0.2f);
+            transform.localScale = new Vector3(transform.localScale.x - 0.04f, transform.localScale.y - 0.04f, 0.2f);
             yield return new WaitForSeconds(0.01f);
         }
         manager.totalPoints += value* manager.currentCombo;
