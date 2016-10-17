@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Ball : MonoBehaviour {
 
+    public Sprite [] ballImages;
     TextMesh valText;
     int value = 1;
     int moveKey = 0;
@@ -64,7 +65,8 @@ public class Ball : MonoBehaviour {
             StartCoroutine(resizeBall());
             gameObject.GetComponent<SpriteRenderer>().sprite = crown;
         } 
-        else StartCoroutine(changeColor(manager.colors[(int)(Math.Log(value, 2) - 1)]));
+        else gameObject.GetComponent<SpriteRenderer>().sprite = ballImages[(int)(Math.Log(value, 2) - 1)];
+        //            StartCoroutine(changeColor(manager.colors[(int)(Math.Log(value, 2) - 1)]));
         Instantiate(effect, transform.position, Quaternion.identity);
     }
 
@@ -73,12 +75,9 @@ public class Ball : MonoBehaviour {
         value = v;
         valText.text = "" + value;
         if (value >= 4096) StartCoroutine(resizeBall());
-        else StartCoroutine(changeColor(manager.colors[(int)(Math.Log(value, 2) - 1)]));
+        else gameObject.GetComponent<SpriteRenderer>().sprite = ballImages[(int)(Math.Log(value, 2) - 1)];
+//        StartCoroutine(changeColor(manager.colors[(int)(Math.Log(value, 2) - 1)]));
         Instantiate(effect, transform.position, Quaternion.identity);
-    }
-
-    public void setSame() {
-
     }
 
     void OnTriggerStay2D(Collider2D coll)
@@ -134,6 +133,8 @@ public class Ball : MonoBehaviour {
     void OnThrow(GameObject g, Vector3 dir) {
         if (g == gameObject)
         {
+            if (GameSettings.state.gameType == GameState.GameType.TwoPlayers) GameScene.Instance.changePlayer();
+//            if (GameScene.Instance.isPlayerOne) 
             GetComponent<AudioSource>().PlayOneShot(shotSound);
             g.GetComponent<Rigidbody2D>().AddForce(-dir, ForceMode2D.Impulse);
             manager.StartCoroutine(manager.addBalls());           
@@ -175,7 +176,12 @@ public class Ball : MonoBehaviour {
             transform.localScale = new Vector3(transform.localScale.x - 0.04f, transform.localScale.y - 0.04f, 0.2f);
             yield return new WaitForSeconds(0.01f);
         }
-        manager.totalPoints += value* manager.currentCombo;
+
+        if (GameSettings.state.gameType == GameState.GameType.Single) manager.pointsOne += value * manager.currentCombo;
+        else {
+            if(moveKey%2==1) manager.pointsOne += value * manager.currentCombo;
+            else manager.pointsTwo += value * manager.currentCombo;
+        } 
         manager.totalBalls--;
         GameScene.Instance.OnThrow -= OnThrow;
         GameScene.Instance.OnSelect -= OnSelect;

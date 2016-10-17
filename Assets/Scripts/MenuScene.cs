@@ -17,6 +17,13 @@ public class MenuScene : MonoBehaviour {
 	}
 
     public void startGame() {
+        GameSettings.state.gameType = GameState.GameType.Single;
+        SceneManager.LoadScene(1);
+    }
+
+    public void startMultiplayerGame()
+    {
+        GameSettings.state.gameType = GameState.GameType.TwoPlayers;
         SceneManager.LoadScene(1);
     }
 
