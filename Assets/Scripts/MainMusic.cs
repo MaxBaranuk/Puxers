@@ -3,7 +3,7 @@ using System.Collections;
 
 public class MainMusic : MonoBehaviour {
 
-    public static AudioSource source;
+    static AudioSource source;
     public static bool AudioBegin;
 	// Use this for initialization
     void Awake()
@@ -15,5 +15,14 @@ public class MainMusic : MonoBehaviour {
             DontDestroyOnLoad(gameObject);
             AudioBegin = true;
         }
+    }
+
+    public static AudioSource Source() {
+
+        if (source == null) {
+          GameObject g = Instantiate(Resources.Load<GameObject>("Prefabs/MainMusic"));
+          source = g.GetComponent<AudioSource>();
+        }
+        return source;
     }
 }
