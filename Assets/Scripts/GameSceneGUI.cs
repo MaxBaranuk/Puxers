@@ -4,16 +4,16 @@ using UnityEngine.UI;
 public class GameSceneGUI : MonoBehaviour {
 
     GameObject soundButton;
-    public GameObject musicButton;
-    public Sprite musicOn;
-    public Sprite musicOff;
+    GameObject musicButton;
+    Sprite musicOn;
+    Sprite musicOff;
     Sprite soundOn;
     Sprite soundOff;
     GameObject shopPanel;
 
-    public GameObject losePanel;
-    public GameObject pausePanel;
-    public GameObject pauseButton;
+    GameObject losePanel;
+    GameObject pausePanel;
+    GameObject pauseButton;
     // Use this for initialization
     void Start () {
         musicOn = Resources.Load<Sprite>("Sprites/musicOn");

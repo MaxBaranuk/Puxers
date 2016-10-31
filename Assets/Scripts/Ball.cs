@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class Ball : MonoBehaviour {
 
-    public Sprite [] ballImages;
+    Sprite [] ballImages;
     TextMesh valText;
     int value = 1;
     int moveKey = 0;
     GameScene manager;
-    public Sprite crown;
+    Sprite crown;
     public GameObject effect;
 //    TextMesh velInf;
     public Vector2 velosity;
@@ -19,6 +19,15 @@ public class Ball : MonoBehaviour {
 
     void Awake()
     {
+        string styleFolder = "";
+        if (GameSettings.state.style == GameState.StyleType.Custom) styleFolder = "BallsCustom";
+        if (GameSettings.state.style == GameState.StyleType.Synergy) styleFolder = "BallsSynergy";
+        ballImages = new Sprite[12];
+        for (int i = 0; i < 12; i++) {
+            ballImages[i] = Resources.Load<Sprite>(styleFolder+"/"+i);
+        }
+        crown = Resources.Load<Sprite>(styleFolder + "/crown");
+
         manager = GameObject.Find("SceneManager").GetComponent<GameScene>();
         valText = GetComponentInChildren<TextMesh>();
         GameScene.Instance.OnThrow += OnThrow;
@@ -31,7 +40,7 @@ public class Ball : MonoBehaviour {
     
     void Start () {
 //        velInf = transform.Find("vel").GetComponent<TextMesh>();
-        value =(int) Math.Pow(2, UnityEngine.Random.Range(0,6));
+        value =(int) Math.Pow(2, UnityEngine.Random.Range(1,6));
         changeValue(1);
     }
 	
@@ -40,32 +49,40 @@ public class Ball : MonoBehaviour {
         velosity = GetComponent<Rigidbody2D>().velocity;
     }
 
-    IEnumerator changeColor(Color c) {
-        Color prevCol = gameObject.GetComponent<SpriteRenderer>().color;
-        float stepR = (c.r - prevCol.r)/50;
-        float stepG = (c.g - prevCol.g)/50;
-        float stepB = (c.b - prevCol.b)/50;
-        for (int i = 0; i < 50; i++) {
-            prevCol = new Color(prevCol.r+stepR, prevCol.g + stepG, prevCol.b + stepB);
-            gameObject.GetComponent<SpriteRenderer>().color = prevCol;
-            gameObject.transform.Find("ring").GetComponent<SpriteRenderer>().color = prevCol;
-            yield return new WaitForSeconds(0.01f);
-        }
-        gameObject.GetComponent<SpriteRenderer>().color = c;
-        gameObject.transform.Find("ring").GetComponent<SpriteRenderer>().color = c;
-    }
+    //IEnumerator changeColor(Color c) {
+    //    Color prevCol = gameObject.GetComponent<SpriteRenderer>().color;
+    //    float stepR = (c.r - prevCol.r)/50;
+    //    float stepG = (c.g - prevCol.g)/50;
+    //    float stepB = (c.b - prevCol.b)/50;
+    //    for (int i = 0; i < 50; i++) {
+    //        prevCol = new Color(prevCol.r+stepR, prevCol.g + stepG, prevCol.b + stepB);
+    //        gameObject.GetComponent<SpriteRenderer>().color = prevCol;
+    //        gameObject.transform.Find("ring").GetComponent<SpriteRenderer>().color = prevCol;
+    //        yield return new WaitForSeconds(0.01f);
+    //    }
+    //    gameObject.GetComponent<SpriteRenderer>().color = c;
+    //    gameObject.transform.Find("ring").GetComponent<SpriteRenderer>().color = c;
+    //}
     
     public void changeValue(int v) {
 
-        for (int i = 0; i < v; i++) {
-            value *= 2;
-        } 
+//        for (int i = 0; i < v; i++) {
+            value *= v;
+//        } 
         valText.text = "" + value;
-        if (value >= 4096) {
+        if (value >= 4096)
+        {
             StartCoroutine(resizeBall());
             gameObject.GetComponent<SpriteRenderer>().sprite = crown;
+        }
+        else {
+            try {
+                gameObject.GetComponent<SpriteRenderer>().sprite = ballImages[(int)(Math.Log(value, 2) - 1)];
+            }
+            catch (Exception) {
+                Debug.Log("index: "+ (int)(Math.Log(value, 2) - 1));
+            }
         } 
-        else gameObject.GetComponent<SpriteRenderer>().sprite = ballImages[(int)(Math.Log(value, 2) - 1)];
         //            StartCoroutine(changeColor(manager.colors[(int)(Math.Log(value, 2) - 1)]));
         Instantiate(effect, transform.position, Quaternion.identity);
     }

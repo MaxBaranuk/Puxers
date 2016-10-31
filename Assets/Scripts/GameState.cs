@@ -5,9 +5,9 @@ using System.Collections;
 public class GameState {
 
     public enum GameType { Single, TwoPlayers };
-    public enum StyleType { Custom, Synargy}
+    public enum StyleType { Custom, Synergy}
     public GameType gameType;
-    public StyleType style;
+    public StyleType style = StyleType.Synergy;
     public Sprite currBackground;
     public int bestScore;
     public bool MusicOn;

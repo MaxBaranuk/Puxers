@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameScene : MonoBehaviour {
 
@@ -14,7 +15,8 @@ public class GameScene : MonoBehaviour {
 
     private static GameScene instance;
     public Hashtable moveKeys;
-    public GameObject ball;
+
+    GameObject ball;
     public GameObject [] bonus;
     public GameObject empty;
     public GameObject info;
@@ -57,8 +59,12 @@ public class GameScene : MonoBehaviour {
 
         //float height = Camera.main.orthographicSize * 2.0f;
         //float width = height * Screen.width / Screen.height;
-//        GameObject walls = GameObject.Find("Table");
- //       walls.transform.localScale = new Vector3((Screen.width/Screen.height)/1.6f, walls.transform.localScale.y, 0.1f);
+        //        GameObject walls = GameObject.Find("Table");
+        //       walls.transform.localScale = new Vector3((Screen.width/Screen.height)/1.6f, walls.transform.localScale.y, 0.1f);
+        if (GameSettings.state.style == GameState.StyleType.Custom) ball = Resources.Load<GameObject>("Prefabs/ball");
+        if (GameSettings.state.style == GameState.StyleType.Synergy) ball = Resources.Load<GameObject>("Prefabs/ballSynergy");
+
+
 
         if (GameSettings.state.gameType == GameState.GameType.TwoPlayers) {
             pointsInfo2.SetActive(true);
@@ -158,7 +164,7 @@ public class GameScene : MonoBehaviour {
     }
 
     public void createBonus() {
-        StartCoroutine(spawnItem(bonus[Random.Range(0,3)]));
+        StartCoroutine(spawnItem(bonus[Random.Range(0,1)]));
     }
 
     public IEnumerator addBalls() {
@@ -256,8 +262,17 @@ public class GameScene : MonoBehaviour {
         for (var i = 0; i < gameObjects.Length; i++) {
             Destroy(gameObjects[i]);
         }
-        losePanel.SetActive(true);
+        StopAllCoroutines();
+        StopCoroutine(LoseGame());
     }
+
+    IEnumerator LoseGame() {
+        losePanel.SetActive(true);
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(0);
+
+    }
+
     IEnumerator bonusSpawn() {
         while (true) {
             yield return new WaitForSeconds(Random.Range(20, 60));
