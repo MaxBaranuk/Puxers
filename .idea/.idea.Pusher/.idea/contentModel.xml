@@ -317,7 +317,6 @@
             <e p="Game.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="GameSettings.cs" t="Include" />
-            <e p="InputController.cs" t="Include" />
             <e p="SaveLoad.cs" t="Include" />
           </e>
           <e p="ResourcesControl" t="Include">
@@ -326,6 +325,8 @@
             <e p="Style.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="BackgroundController.cs" t="Include" />
+            <e p="InputController.cs" t="Include" />
             <e p="UIButton.cs" t="Include" />
             <e p="UIManager.cs" t="Include" />
           </e>
@@ -340,7 +341,6 @@
           <e p="Empty.cs" t="Include" />
           <e p="GameScene.cs" t="Include" />
           <e p="GameSceneGUI.cs" t="Include" />
-          <e p="SetBackground.cs" t="Include" />
           <e p="SettingsManager.cs" t="Include" />
           <e p="ShopManager.cs" t="Include" />
           <e p="UIOldManager.cs" t="Include" />
