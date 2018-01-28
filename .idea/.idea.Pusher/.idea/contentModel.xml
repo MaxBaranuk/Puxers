@@ -312,11 +312,13 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="GameLogic" t="Include">
+            <e p="Ball.cs" t="Include" />
             <e p="Constants.cs" t="Include" />
             <e p="Game.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
-            <e p="GameRecord.cs" t="Include" />
             <e p="GameSettings.cs" t="Include" />
+            <e p="InputController.cs" t="Include" />
+            <e p="SaveLoad.cs" t="Include" />
           </e>
           <e p="ResourcesControl" t="Include">
             <e p="OriginStyle.cs" t="Include" />
@@ -338,11 +340,124 @@
           <e p="Empty.cs" t="Include" />
           <e p="GameScene.cs" t="Include" />
           <e p="GameSceneGUI.cs" t="Include" />
-          <e p="SaveLoad.cs" t="Include" />
           <e p="SetBackground.cs" t="Include" />
           <e p="SettingsManager.cs" t="Include" />
           <e p="ShopManager.cs" t="Include" />
           <e p="UIOldManager.cs" t="Include" />
+        </e>
+        <e p="Smooth" t="Include">
+          <e p="Foundations" t="Include">
+            <e p="__Foundations-Git-Readme.txt" t="Include" />
+            <e p="__Foundations-License.txt" t="Include" />
+            <e p="__Foundations-Version.txt" t="Include" />
+            <e p="Algebraics" t="Include">
+              <e p="Either.cs" t="Include" />
+              <e p="Option.cs" t="Include" />
+              <e p="Tuple.cs" t="Include" />
+              <e p="Unit.cs" t="Include" />
+            </e>
+            <e p="Collections" t="Include">
+              <e p="Comparer.cs" t="Include" />
+              <e p="CreateWithComparer.cs" t="Include" />
+              <e p="EqualityComparer.cs" t="Include" />
+              <e p="FuncEnumerable.cs" t="Include" />
+              <e p="ICollectionExtensions.cs" t="Include" />
+              <e p="IDictionaryExtensions.cs" t="Include" />
+              <e p="IListExtensions.cs" t="Include" />
+              <e p="IListStepper.cs" t="Include" />
+              <e p="InspectorKeyValuePair.cs" t="Include" />
+              <e p="LinkedListStepper.cs" t="Include" />
+            </e>
+            <e p="Compare" t="Include">
+              <e p="Comparers" t="Include">
+                <e p="EnumComparers.cs" t="Include" />
+                <e p="KeyValuePairComparers.cs" t="Include" />
+              </e>
+              <e p="Configuration.cs" t="Include" />
+              <e p="Events.cs" t="Include" />
+              <e p="Examples" t="Include">
+                <e p="ExampleConfiguration.cs" t="Include" />
+              </e>
+              <e p="Factory.cs" t="Include" />
+              <e p="Finder.cs" t="Include" />
+              <e p="Utilities" t="Include">
+                <e p="LogUnregisteredOnDestroy.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Comparisons" t="Include">
+              <e p="Comparisons.cs" t="Include" />
+              <e p="FuncComparer.cs" t="Include" />
+              <e p="FuncEqualityComparer.cs" t="Include" />
+              <e p="IComparableComparer.cs" t="Include" />
+              <e p="IEquatableEqualityComparer.cs" t="Include" />
+            </e>
+            <e p="Delegates" t="Include">
+              <e p="DelegateExtensions.cs" t="Include" />
+              <e p="Delegates.cs" t="Include" />
+              <e p="Tupled.cs" t="Include" />
+            </e>
+            <e p="Dispose" t="Include">
+              <e p="Disposable.cs" t="Include" />
+              <e p="DisposalQueue.cs" t="Include" />
+              <e p="SmoothDisposer.cs" t="Include" />
+            </e>
+            <e p="Events" t="Include">
+              <e p="GenericEvents.cs" t="Include" />
+            </e>
+            <e p="Platform" t="Include">
+              <e p="BasePlatform.cs" t="Include" />
+              <e p="Runtime.cs" t="Include" />
+            </e>
+            <e p="Pools" t="Include">
+              <e p="KeyedPool.cs" t="Include" />
+              <e p="KeyedPoolWithDefaultKey.cs" t="Include" />
+              <e p="Pool.cs" t="Include" />
+              <e p="PoolWithInitializer.cs" t="Include" />
+              <e p="SystemPools.cs" t="Include" />
+            </e>
+            <e p="Slinq" t="Include">
+              <e p="Collections" t="Include">
+                <e p="Grouping.cs" t="Include" />
+                <e p="Linked.cs" t="Include" />
+                <e p="Lookup.cs" t="Include" />
+              </e>
+              <e p="Context" t="Include">
+                <e p="ChainedOrPooled" t="Include">
+                  <e p="AggregateContext.cs" t="Include" />
+                  <e p="ConcatContext.cs" t="Include" />
+                  <e p="EitherContext.cs" t="Include" />
+                  <e p="FlattenContext.cs" t="Include" />
+                  <e p="GroupByContext.cs" t="Include" />
+                  <e p="GroupJoinContext.cs" t="Include" />
+                  <e p="HashSetContext.cs" t="Include" />
+                  <e p="IntContext.cs" t="Include" />
+                  <e p="JoinContext.cs" t="Include" />
+                  <e p="LinkedContext.cs" t="Include" />
+                  <e p="PredicateContext.cs" t="Include" />
+                  <e p="SelectContext.cs" t="Include" />
+                  <e p="SelectOptionContext.cs" t="Include" />
+                  <e p="SelectSlinqContext.cs" t="Include" />
+                  <e p="ZipAllContext.cs" t="Include" />
+                  <e p="ZipContext.cs" t="Include" />
+                </e>
+                <e p="Mutation" t="Include">
+                  <e p="BacktrackDetector.cs" t="Include" />
+                  <e p="BacktrackException.cs" t="Include" />
+                  <e p="Mutator.cs" t="Include" />
+                </e>
+                <e p="Simple" t="Include">
+                  <e p="FuncContext.cs" t="Include" />
+                  <e p="FuncOptionContext.cs" t="Include" />
+                  <e p="IEnumerableContext.cs" t="Include" />
+                  <e p="IListContext.cs" t="Include" />
+                  <e p="LinkedListContext.cs" t="Include" />
+                  <e p="OptionContext.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Slinq.cs" t="Include" />
+              <e p="Slinqable.cs" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

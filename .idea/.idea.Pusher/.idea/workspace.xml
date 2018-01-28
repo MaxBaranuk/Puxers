@@ -1,96 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e505182d-ee03-4d7f-a3b6-63d38f4b0ce3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Pusher/.idea/indexLayout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Pusher/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Pusher/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Pusher/riderModule.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Constants.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameRecord.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/0.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/10.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/11.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/12.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/4.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/5.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/6.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/7.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/8.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/9.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/crown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/crown.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/MainMusic.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/MainMusic.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BallAnimation.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BallAnimation.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Bonus.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Bonus.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonAnimation.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonAnimation.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScaler.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScaler.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Effect.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Effect.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Empty.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Empty.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameScene.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameScene.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameSceneGUI.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameSceneGUI.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameSettings.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameSettings.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameState.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameState.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/MainMusic.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/MainMusic.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/MenuScene.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/MenuScene.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SaveLoad.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SaveLoad.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SetBackground.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SetBackground.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SettingsManager.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SettingsManager.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ShopManager.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ShopManager.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Textures/Version 1/фишки без цыфр.meta" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/menu.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/menu.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Flare_Effect_V1/Plugins/Editor/HTSpriteSheetEditor.cs" afterPath="$PROJECT_DIR$/Assets/Flare_Effect_V1/Plugins/Editor/HTSpriteSheetEditor.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Flare_Effect_V1/Plugins/HTSpriteSheet.cs" afterPath="$PROJECT_DIR$/Assets/Flare_Effect_V1/Plugins/HTSpriteSheet.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts.meta" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
-    </list>
+    <list default="true" id="e505182d-ee03-4d7f-a3b6-63d38f4b0ce3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,62 +14,83 @@
       <file leaf-file-name="UiManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="223">
+              <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
               <folding>
-                <marker date="1517087298264" expanded="false" signature="6:104" ph="..." />
-                <marker date="1517087298264" expanded="true" signature="118:1785" ph="{...}" />
-                <marker date="1517087298264" expanded="true" signature="164:1783" ph="{...}" />
-                <marker date="1517087298264" expanded="true" signature="569:699" ph="{...}" />
-                <marker date="1517087298264" expanded="true" signature="731:900" ph="{...}" />
-                <marker date="1517087298264" expanded="true" signature="903:1021" ph="/* private void Update () { ... */" />
-                <marker date="1517087298264" expanded="true" signature="1049:1212" ph="{...}" />
-                <marker date="1517087298264" expanded="true" signature="1253:1335" ph="{...}" />
-                <marker date="1517087298264" expanded="true" signature="1379:1443" ph="{...}" />
-                <marker date="1517087298264" expanded="true" signature="1489:1777" ph="{...}" />
+                <marker date="1517095627185" expanded="true" signature="6:99" ph="..." />
+                <marker date="1517095627185" expanded="true" signature="113:2150" ph="{...}" />
+                <marker date="1517095627185" expanded="true" signature="159:2148" ph="{...}" />
+                <marker date="1517095627185" expanded="true" signature="651:745" ph="{...}" />
+                <marker date="1517095627185" expanded="true" signature="775:913" ph="{...}" />
+                <marker date="1517095627185" expanded="true" signature="914:1032" ph="/* private void Update () { ... */" />
+                <marker date="1517095627185" expanded="true" signature="1060:1236" ph="{...}" />
+                <marker date="1517095627185" expanded="true" signature="1277:1359" ph="{...}" />
+                <marker date="1517095627185" expanded="true" signature="1403:1467" ph="{...}" />
+                <marker date="1517095627185" expanded="true" signature="1513:2142" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIButton.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding>
-                <marker date="1517087298294" expanded="false" signature="6:40" ph="..." />
-                <marker date="1517087298294" expanded="true" signature="91:241" ph="{...}" />
-                <marker date="1517087298294" expanded="true" signature="137:235" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding>
-                <marker date="1517091340078" expanded="true" signature="6:42" ph="..." />
-                <marker date="1517091340078" expanded="true" signature="110:248" ph="{...}" />
-                <marker date="1517091340078" expanded="true" signature="209:242" ph="{...}" />
+                <marker date="1517101029590" expanded="true" signature="6:130" ph="..." />
+                <marker date="1517101029590" expanded="true" signature="151:1675" ph="{...}" />
+                <marker date="1517101029590" expanded="true" signature="198:1673" ph="{...}" />
+                <marker date="1517101029590" expanded="true" signature="566:775" ph="{...}" />
+                <marker date="1517101029590" expanded="true" signature="820:872" ph="{...}" />
+                <marker date="1517101029590" expanded="true" signature="905:1055" ph="{...}" />
+                <marker date="1517101029590" expanded="true" signature="956:1045" ph="{...}" />
+                <marker date="1517101029590" expanded="true" signature="1087:1120" ph="{...}" />
+                <marker date="1517101029590" expanded="true" signature="1165:1395" ph="{...}" />
+                <marker date="1517101029590" expanded="true" signature="1445:1667" ph="{...}" />
+                <marker date="1517101029590" expanded="true" signature="1497:1630" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs">
+      <file leaf-file-name="Ball.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Ball.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
-                <marker date="1517087298314" expanded="true" signature="43:431" ph="{...}" />
-                <marker date="1517087298314" expanded="true" signature="199:219" ph="{...}" />
-                <marker date="1517087298314" expanded="true" signature="263:320" ph="{...}" />
-                <marker date="1517087298314" expanded="true" signature="368:425" ph="{...}" />
+                <marker date="1517093700330" expanded="true" signature="6:55" ph="..." />
+                <marker date="1517093700330" expanded="true" signature="76:396" ph="{...}" />
+                <marker date="1517093700330" expanded="true" signature="116:394" ph="{...}" />
+                <marker date="1517093700330" expanded="true" signature="151:238" ph="{...}" />
+                <marker date="1517093700330" expanded="true" signature="287:320" ph="{...}" />
+                <marker date="1517093700330" expanded="true" signature="355:388" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/InputController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+              <folding>
+                <marker date="1517093661774" expanded="true" signature="39:113" ph="{...}" />
+                <marker date="1517093661774" expanded="true" signature="90:111" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameScene.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="303" column="29" lean-forward="false" selection-start-line="303" selection-start-column="22" selection-end-line="303" selection-end-column="29" />
+              <folding>
+                <marker date="1517082970005" expanded="true" signature="0:11840" ph="/* using System.Collections; ... */" />
               </folding>
             </state>
           </provider>
@@ -168,48 +100,13 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="41" />
               <folding>
-                <marker date="1517087298324" expanded="true" signature="19:163" ph="{...}" />
-                <marker date="1517087298324" expanded="true" signature="58:161" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OriginStyle.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/OriginStyle.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-              <folding>
-                <marker date="1517091240339" expanded="true" signature="46:2855" ph="{...}" />
-                <marker date="1517091240339" expanded="true" signature="85:2853" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Style.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/Style.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <marker date="1517091275331" expanded="true" signature="80:942" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceHolder.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/ResourceHolder.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding>
-                <marker date="1517091252598" expanded="false" signature="6:52" ph="..." />
-                <marker date="1517091252598" expanded="true" signature="130:229" ph="{...}" />
+                <marker date="1517094194544" expanded="true" signature="6:36" ph="..." />
+                <marker date="1517094194544" expanded="true" signature="57:916" ph="{...}" />
+                <marker date="1517094194544" expanded="true" signature="114:914" ph="{...}" />
+                <marker date="1517094194544" expanded="true" signature="541:805" ph="{...}" />
+                <marker date="1517094194544" expanded="true" signature="807:909" ph="/* public static GameRecord Record = new GameRecord(); ... */" />
               </folding>
             </state>
           </provider>
@@ -221,44 +118,50 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/Empty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Constants.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameSceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/Bonus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/BallAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameRecord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/InputController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Collections/IListStepper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Ball.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/UIOldManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/SaveLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Compare/Factory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/Style.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/OriginStyle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Tasks/TaskObservableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/ResourceHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Context/Simple/IListContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/SaveLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43AEDF09-740C-4738-8480-FA7FD023E351/c4/7fb855dd/MonoBehaviour.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Slinqable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Slinq.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43AEDF09-740C-4738-8480-FA7FD023E351/2b/5531c008/RaycastHit2D.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/Bonus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/BallAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Platform/BasePlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Delegates/Tupled.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CE073096-ED89-4F7E-B8BF-05628286ED96/b5/0381224c/TaskCompletionSource`1.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/SetBackground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Context/ChainedOrPooled/ZipAllContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/Ball.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43AEDF09-740C-4738-8480-FA7FD023E351/c4/7fb855dd/MonoBehaviour.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Context/ChainedOrPooled/ZipContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43AEDF09-740C-4738-8480-FA7FD023E351/2b/5531c008/RaycastHit2D.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/CameraScaler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43AEDF09-740C-4738-8480-FA7FD023E351/c4/7fb855dd/MonoBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/ScriptsOld/MenuScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MenuScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/ScriptsOld/UIOldManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/ScriptsOld/GameSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Constants.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Constants.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptsOld/MainMusic.cs" />
-        <option value="$PROJECT_DIR$/Assets/ScriptsOld/SaveLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/SoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/CGame.cs" />
@@ -270,10 +173,7 @@
         <option value="$PROJECT_DIR$/Assets/ScriptsOld/Bonus.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptsOld/GameSceneGUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Constants.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Smooth/Foundations/Platform/BasePlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Resources/ResourceHolder.cs" />
@@ -285,9 +185,28 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesControl/OriginStyle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesControl/Style.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesControl/ResourceHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameRecord.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Tasks/TaskObservableExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/InputController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/SaveLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/SetBackground.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/SaveLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Collections/IListStepper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Compare/Factory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Delegates/Tupled.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Platform/BasePlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Context/ChainedOrPooled/ZipAllContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Context/ChainedOrPooled/ZipContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Context/Simple/IListContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Slinqable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Test/WhereTakeSelectAggregateLinq.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Test/SlinqTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Slinq.cs" />
       </list>
     </option>
   </component>
@@ -329,36 +248,48 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp (synchronizing...)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp (synchronizing...)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp (synchronizing...)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Smooth" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp (synchronizing...)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="GameLogic" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Smooth" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Foundations" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp (synchronizing...)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="ResourcesControl" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Smooth" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Foundations" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Slinq" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -408,12 +339,12 @@
       <workItem from="1517089536793" duration="348000" />
       <workItem from="1517090068965" duration="158000" />
       <workItem from="1517091016281" duration="333000" />
-      <workItem from="1517091461745" duration="130000" />
+      <workItem from="1517091461745" duration="8680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11608000" />
+    <option name="totallyTimeSpent" value="20158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,7 +357,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -436,7 +366,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31478772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16611843" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -462,172 +392,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <marker date="1517087298324" expanded="true" signature="19:163" ph="{...}" />
-            <marker date="1517087298324" expanded="true" signature="58:161" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="55" />
-          <folding>
-            <marker date="1517087298264" expanded="false" signature="6:104" ph="..." />
-            <marker date="1517087298264" expanded="true" signature="118:1785" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="164:1783" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="569:699" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="731:900" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="903:1021" ph="/* private void Update () { ... */" />
-            <marker date="1517087298264" expanded="true" signature="1049:1212" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="1253:1335" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="1379:1443" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="1489:1777" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-          <folding>
-            <marker date="1517087298294" expanded="false" signature="6:40" ph="..." />
-            <marker date="1517087298294" expanded="true" signature="91:241" ph="{...}" />
-            <marker date="1517087298294" expanded="true" signature="137:235" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Resources/ResourceHolder.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Smooth/Foundations/Platform/BasePlatform.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="20" />
-          <folding>
-            <marker date="1517087298314" expanded="true" signature="43:431" ph="{...}" />
-            <marker date="1517087298314" expanded="true" signature="199:219" ph="{...}" />
-            <marker date="1517087298314" expanded="true" signature="263:320" ph="{...}" />
-            <marker date="1517087298314" expanded="true" signature="368:425" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <marker date="1517087298324" expanded="true" signature="19:163" ph="{...}" />
-            <marker date="1517087298324" expanded="true" signature="58:161" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <marker date="1517091340078" expanded="true" signature="6:42" ph="..." />
-            <marker date="1517091340078" expanded="true" signature="110:248" ph="{...}" />
-            <marker date="1517091340078" expanded="true" signature="209:242" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517087298264" expanded="false" signature="6:104" ph="..." />
-            <marker date="1517087298264" expanded="true" signature="118:1785" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="164:1783" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="569:699" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="731:900" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="903:1021" ph="/* private void Update () { ... */" />
-            <marker date="1517087298264" expanded="true" signature="1049:1212" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="1253:1335" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="1379:1443" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="1489:1777" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/UIOldManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Constants.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <marker date="1517087298324" expanded="true" signature="19:163" ph="{...}" />
-            <marker date="1517087298324" expanded="true" signature="58:161" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameRecord.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/Bonus.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/BallAnimation.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/MenuScene.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScene.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SetBackground.cs" />
@@ -648,13 +412,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScene.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/MenuScene.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/SaveLoad.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/UIOldManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -692,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/Ball.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="225" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Smooth/Foundations/Platform/BasePlatform.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,45 +463,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Resources/ResourceHolder.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="20" />
-          <folding>
-            <marker date="1517087298314" expanded="true" signature="43:431" ph="{...}" />
-            <marker date="1517087298314" expanded="true" signature="199:219" ph="{...}" />
-            <marker date="1517087298314" expanded="true" signature="263:320" ph="{...}" />
-            <marker date="1517087298314" expanded="true" signature="368:425" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <marker date="1517087298264" expanded="false" signature="6:104" ph="..." />
-            <marker date="1517087298264" expanded="true" signature="118:1785" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="164:1783" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="569:699" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="731:900" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="903:1021" ph="/* private void Update () { ... */" />
-            <marker date="1517087298264" expanded="true" signature="1049:1212" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="1253:1335" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="1379:1443" ph="{...}" />
-            <marker date="1517087298264" expanded="true" signature="1489:1777" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Resources/Style.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CE073096-ED89-4F7E-B8BF-05628286ED96/b5/0381224c/TaskCompletionSource`1.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -768,28 +479,6 @@
           <folding>
             <marker date="1517091252598" expanded="false" signature="6:52" ph="..." />
             <marker date="1517091252598" expanded="true" signature="130:229" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/Style.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <marker date="1517091275331" expanded="true" signature="80:942" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <marker date="1517091340078" expanded="true" signature="6:42" ph="..." />
-            <marker date="1517091340078" expanded="true" signature="110:248" ph="{...}" />
-            <marker date="1517091340078" expanded="true" signature="209:242" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -854,13 +543,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/OriginStyle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <marker date="1517091240339" expanded="true" signature="46:2855" ph="{...}" />
+            <marker date="1517091240339" expanded="true" signature="85:2853" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameRecord.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/Empty.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1517091491807" expanded="true" signature="45:268" ph="{...}" />
-            <marker date="1517091491807" expanded="true" signature="102:266" ph="{...}" />
+            <marker date="1517076334179" expanded="true" signature="40:584" ph="{...}" />
+            <marker date="1517076334179" expanded="true" signature="82:582" ph="{...}" />
+            <marker date="1517076334179" expanded="true" signature="114:177" ph="/* GameScene manager; ... */" />
+            <marker date="1517076334179" expanded="true" signature="200:291" ph="{...}" />
+            <marker date="1517076334179" expanded="true" signature="360:373" ph="{...}" />
+            <marker date="1517076334179" expanded="true" signature="420:504" ph="{...}" />
+            <marker date="1517076334179" expanded="true" signature="537:576" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/Style.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1517091275331" expanded="true" signature="46:944" ph="{...}" />
+            <marker date="1517091275331" expanded="true" signature="80:942" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/Ball.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2282">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <marker date="1517082950055" expanded="true" signature="0:10071" ph="/* using System; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/InputController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <marker date="1517093661774" expanded="true" signature="39:113" ph="{...}" />
+            <marker date="1517093661774" expanded="true" signature="90:111" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/SaveLoad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Ball.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <marker date="1517093700330" expanded="true" signature="6:55" ph="..." />
+            <marker date="1517093700330" expanded="true" signature="76:396" ph="{...}" />
+            <marker date="1517093700330" expanded="true" signature="116:394" ph="{...}" />
+            <marker date="1517093700330" expanded="true" signature="151:238" ph="{...}" />
+            <marker date="1517093700330" expanded="true" signature="287:320" ph="{...}" />
+            <marker date="1517093700330" expanded="true" signature="355:388" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/CameraScaler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <marker date="1517076334168" expanded="true" signature="40:477" ph="{...}" />
+            <marker date="1517076334168" expanded="true" signature="89:475" ph="{...}" />
+            <marker date="1517076334168" expanded="true" signature="195:469" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -868,21 +648,1182 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="41" />
           <folding>
-            <marker date="1517087298324" expanded="true" signature="19:163" ph="{...}" />
-            <marker date="1517087298324" expanded="true" signature="58:161" ph="{...}" />
+            <marker date="1517094194544" expanded="true" signature="6:36" ph="..." />
+            <marker date="1517094194544" expanded="true" signature="57:916" ph="{...}" />
+            <marker date="1517094194544" expanded="true" signature="114:914" ph="{...}" />
+            <marker date="1517094194544" expanded="true" signature="541:805" ph="{...}" />
+            <marker date="1517094194544" expanded="true" signature="807:909" ph="/* public static GameRecord Record = new GameRecord(); ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/OriginStyle.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="223">
+          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
           <folding>
-            <marker date="1517091240339" expanded="true" signature="46:2855" ph="{...}" />
-            <marker date="1517091240339" expanded="true" signature="85:2853" ph="{...}" />
+            <marker date="1517095627185" expanded="true" signature="6:99" ph="..." />
+            <marker date="1517095627185" expanded="true" signature="113:2150" ph="{...}" />
+            <marker date="1517095627185" expanded="true" signature="159:2148" ph="{...}" />
+            <marker date="1517095627185" expanded="true" signature="651:745" ph="{...}" />
+            <marker date="1517095627185" expanded="true" signature="775:913" ph="{...}" />
+            <marker date="1517095627185" expanded="true" signature="914:1032" ph="/* private void Update () { ... */" />
+            <marker date="1517095627185" expanded="true" signature="1060:1236" ph="{...}" />
+            <marker date="1517095627185" expanded="true" signature="1277:1359" ph="{...}" />
+            <marker date="1517095627185" expanded="true" signature="1403:1467" ph="{...}" />
+            <marker date="1517095627185" expanded="true" signature="1513:2142" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/SetBackground.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1517096404759" expanded="true" signature="40:747" ph="{...}" />
+            <marker date="1517096404759" expanded="true" signature="87:745" ph="{...}" />
+            <marker date="1517096404759" expanded="true" signature="106:124" ph="{...}" />
+            <marker date="1517096404759" expanded="true" signature="149:741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <marker date="1517098944410" expanded="true" signature="33:667" ph="{...}" />
+            <marker date="1517098944410" expanded="true" signature="57:665" ph="{...}" />
+            <marker date="1517098944410" expanded="true" signature="355:447" ph="{...}" />
+            <marker date="1517098944410" expanded="true" signature="491:554" ph="{...}" />
+            <marker date="1517098944410" expanded="true" signature="602:659" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/SaveLoad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1517098983903" expanded="true" signature="6:89" ph="..." />
+            <marker date="1517098983903" expanded="true" signature="110:1283" ph="{...}" />
+            <marker date="1517098983903" expanded="true" signature="146:1281" ph="{...}" />
+            <marker date="1517098983903" expanded="true" signature="201:621" ph="{...}" />
+            <marker date="1517098983903" expanded="true" signature="274:610" ph="{...}" />
+            <marker date="1517098983903" expanded="true" signature="668:1275" ph="{...}" />
+            <marker date="1517098983903" expanded="true" signature="792:1117" ph="{...}" />
+            <marker date="1517098983903" expanded="true" signature="1134:1236" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="303" column="29" lean-forward="false" selection-start-line="303" selection-start-column="22" selection-end-line="303" selection-end-column="29" />
+          <folding>
+            <marker date="1517082970005" expanded="true" signature="0:11840" ph="/* using System.Collections; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Collections/IListStepper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+          <folding>
+            <marker date="1517101569307" expanded="true" signature="6:58" ph="..." />
+            <marker date="1517101569307" expanded="true" signature="101:1621" ph="{...}" />
+            <marker date="1517101569307" expanded="true" signature="104:231" ph="/// Helper class for enuemrating the elements of an IList&lt;T&gt; using a start index and step value. ... " />
+            <marker date="1517101569307" expanded="true" signature="279:817" ph="{...}" />
+            <marker date="1517101569307" expanded="true" signature="476:556" ph="{...}" />
+            <marker date="1517101569307" expanded="true" signature="600:703" ph="{...}" />
+            <marker date="1517101569307" expanded="true" signature="667:699" ph="{...}" />
+            <marker date="1517101569307" expanded="true" signature="821:960" ph="/// Helper class for enuemrating the element, index pairs of an IList&lt;T&gt; using a start index and step value. ... " />
+            <marker date="1517101569307" expanded="true" signature="1029:1619" ph="{...}" />
+            <marker date="1517101569307" expanded="true" signature="1244:1324" ph="{...}" />
+            <marker date="1517101569307" expanded="true" signature="1380:1505" ph="{...}" />
+            <marker date="1517101569307" expanded="true" signature="1447:1501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Compare/Factory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="175" column="37" lean-forward="false" selection-start-line="175" selection-start-column="37" selection-end-line="175" selection-end-column="37" />
+          <folding>
+            <marker date="1517101625094" expanded="true" signature="6:205" ph="..." />
+            <marker date="1517101625094" expanded="true" signature="244:8724" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="275:8722" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="368:1033" ph="Comparer" />
+            <marker date="1517101625094" expanded="true" signature="388:647" ph="/// Returns an option containing a sort order comparer for type T, or None if no comparer can be created. ... " />
+            <marker date="1517101625094" expanded="true" signature="699:1017" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="753:797" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="889:963" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="1037:2259" ph="EqualityComparer" />
+            <marker date="1517101625094" expanded="true" signature="1065:1418" ph="/// Returns an option containing an equality comparer for type T, or None if no comparer can be created. ... " />
+            <marker date="1517101625094" expanded="true" signature="1486:2245" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="1540:1592" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="1615:1697" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="1789:1879" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="2263:6086" ph="Expressions" />
+            <marker date="1517101625094" expanded="true" signature="2327:2390" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="2447:2520" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="2524:2699" ph="/// Returns an option containing an expression that compares l and r for equality without casting, or None if no  ... " />
+            <marker date="1517101625094" expanded="true" signature="2780:3576" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="2789:3077" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="2896:3072" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="3009:3066" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="3112:3118" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="3139:3168" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="3180:3483" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="3408:3478" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="3504:3533" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="3580:3776" ph="/// Returns a tuple containing: ... " />
+            <marker date="1517101625094" expanded="true" signature="3856:3900" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="3904:4101" ph="/// Returns a tuple containing: ... " />
+            <marker date="1517101625094" expanded="true" signature="4187:4659" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="4665:4923" ph="/// Returns a tuple containing: ... " />
+            <marker date="1517101625094" expanded="true" signature="5023:5075" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="5079:5349" ph="/// Returns a tuple containing: ... " />
+            <marker date="1517101625094" expanded="true" signature="5455:6070" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="6090:7014" ph="Comparers for specific types" />
+            <marker date="1517101625094" expanded="true" signature="6195:6998" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="7018:8719" ph="EqualityComparers for specific types" />
+            <marker date="1517101625094" expanded="true" signature="7137:7342" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="7173:7338" ph="{...}" />
+            <marker date="1517101625094" expanded="true" signature="7427:8705" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Delegates/Tupled.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding>
+            <marker date="1517101665008" expanded="true" signature="6:48" ph="..." />
+            <marker date="1517101665008" expanded="true" signature="89:7326" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="93:976" ph="/// Provides methods for invoking a delegate that takes individual parameters using a tuple. ... " />
+            <marker date="1517101665008" expanded="true" signature="1005:7324" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="1010:2598" ph="Action, Tuple" />
+            <marker date="1517101665008" expanded="true" signature="1108:1130" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="1219:1247" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="1350:1384" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="1499:1539" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="1666:1712" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="1851:1903" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="2054:2112" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="2275:2339" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="2514:2584" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="2602:4130" ph="Action, First, Tuple" />
+            <marker date="1517101665008" expanded="true" signature="2722:2751" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="2857:2892" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="3010:3051" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="3181:3228" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="3370:3423" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="3577:3636" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="3802:3867" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="4045:4116" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="4134:5758" ph="Func, Tuple" />
+            <marker date="1517101665008" expanded="true" signature="4229:4256" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="4346:4379" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="4481:4520" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="4634:4679" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="4805:4856" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="4994:5051" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="5201:5264" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="5426:5495" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="5669:5744" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="5762:7320" ph="Func, First, Tuple" />
+            <marker date="1517101665008" expanded="true" signature="5879:5913" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="6018:6058" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="6175:6221" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="6350:6402" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="6543:6601" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="6754:6818" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="6983:7053" ph="{...}" />
+            <marker date="1517101665008" expanded="true" signature="7230:7306" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Platform/BasePlatform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="83" column="58" lean-forward="false" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="58" />
+          <folding>
+            <marker date="1517101686451" expanded="false" signature="6:32" ph="..." />
+            <marker date="1517101686451" expanded="true" signature="60:3197" ph="{...}" />
+            <marker date="1517101686451" expanded="true" signature="64:160" ph="/// Enumeration representing the base platforms for Unity builds. ... " />
+            <marker date="1517101686451" expanded="true" signature="187:412" ph="{...}" />
+            <marker date="1517101686451" expanded="true" signature="415:507" ph="/// Extension methods related to the runtime / base platform. ... " />
+            <marker date="1517101686451" expanded="true" signature="548:3195" ph="{...}" />
+            <marker date="1517101686451" expanded="true" signature="553:651" ph="/// Returns the base platform for the specified runtime platform. ... " />
+            <marker date="1517101686451" expanded="true" signature="734:2002" ph="{...}" />
+            <marker date="1517101686451" expanded="true" signature="764:1998" ph="{...}" />
+            <marker date="1517101686451" expanded="true" signature="2006:2125" ph="/// Returns true if the specified platform supports JIT compilation; otherwise, false. ... " />
+            <marker date="1517101686451" expanded="true" signature="2192:2359" ph="{...}" />
+            <marker date="1517101686451" expanded="true" signature="2363:2482" ph="/// Returns true if the specified platform supports JIT compilation; otherwise, false. ... " />
+            <marker date="1517101686451" expanded="true" signature="2543:2723" ph="{...}" />
+            <marker date="1517101686451" expanded="true" signature="2727:2854" ph="/// Returns true if the specified platform does not support JIT compilation; otherwise, false. ... " />
+            <marker date="1517101686451" expanded="true" signature="2920:2961" ph="{...}" />
+            <marker date="1517101686451" expanded="true" signature="2967:3094" ph="/// Returns true if the specified platform does not support JIT compilation; otherwise, false. ... " />
+            <marker date="1517101686451" expanded="true" signature="3154:3192" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Context/ChainedOrPooled/ZipAllContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <marker date="1517101699579" expanded="true" signature="6:96" ph="..." />
+            <marker date="1517101699579" expanded="true" signature="157:11163" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="162:3834" ph="Tuple" />
+            <marker date="1517101699579" expanded="true" signature="221:3820" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="228:601" ph="Slinqs" />
+            <marker date="1517101699579" expanded="true" signature="401:585" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="607:1121" ph="Context" />
+            <marker date="1517101699579" expanded="true" signature="949:1105" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="1127:3814" ph="Delegates" />
+            <marker date="1517101699579" expanded="true" signature="1594:2388" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="1659:2006" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="1698:1909" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="1815:1903" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="2121:2259" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="2352:2384" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="2509:3242" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="2619:2637" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="2715:2798" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="2928:2946" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="3026:3112" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="3364:3798" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="3489:3701" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="3607:3696" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="3837:7407" ph="With selector" />
+            <marker date="1517101699579" expanded="true" signature="3907:7393" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="3912:4295" ph="Slinqs" />
+            <marker date="1517101699579" expanded="true" signature="4108:4281" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="4299:4955" ph="Context" />
+            <marker date="1517101699579" expanded="true" signature="4756:4941" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="4961:7389" ph="Delegates" />
+            <marker date="1517101699579" expanded="true" signature="5330:6051" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="5395:5742" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="5434:5645" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="5551:5639" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="5854:5949" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="6015:6047" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="6146:6873" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="6253:6271" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="6349:6432" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="6562:6580" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="6660:6746" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="6971:7375" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="7066:7278" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="7184:7273" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="7411:11160" ph="With selector and parameter" />
+            <marker date="1517101699579" expanded="true" signature="7498:11146" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="7503:7924" ph="Slinqs" />
+            <marker date="1517101699579" expanded="true" signature="7720:7910" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="7928:8668" ph="Context" />
+            <marker date="1517101699579" expanded="true" signature="8436:8652" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="8674:11142" ph="Delegates" />
+            <marker date="1517101699579" expanded="true" signature="9055:9798" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="9120:9467" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="9159:9370" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="9276:9364" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="9582:9696" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="9762:9794" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="9896:10623" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="10003:10021" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="10099:10182" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="10312:10330" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="10410:10496" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="10724:11128" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="10819:11031" ph="{...}" />
+            <marker date="1517101699579" expanded="true" signature="10937:11026" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Context/ChainedOrPooled/ZipContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1517101717105" expanded="true" signature="6:96" ph="..." />
+            <marker date="1517101717105" expanded="true" signature="157:10235" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="203:277" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="280:3453" ph="Tuple" />
+            <marker date="1517101717105" expanded="true" signature="336:3439" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="343:672" ph="Slinqs" />
+            <marker date="1517101717105" expanded="true" signature="494:656" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="676:1185" ph="Context" />
+            <marker date="1517101717105" expanded="true" signature="1013:1169" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="1191:3433" ph="Delegates" />
+            <marker date="1517101717105" expanded="true" signature="1582:2373" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="1647:1806" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="1921:2039" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="2149:2235" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="2275:2364" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="2475:3091" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="2623:2706" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="2875:2961" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="3192:3417" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="3458:6821" ph="With selector" />
+            <marker date="1517101717105" expanded="true" signature="3525:6807" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="3530:3885" ph="Slinqs" />
+            <marker date="1517101717105" expanded="true" signature="3704:3871" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="3889:4024" ph="Selectors" />
+            <marker date="1517101717105" expanded="true" signature="4028:4649" ph="Context" />
+            <marker date="1517101717105" expanded="true" signature="4450:4635" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="4655:6803" ph="Delegates" />
+            <marker date="1517101717105" expanded="true" signature="5012:5778" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="5077:5236" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="5348:5455" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="5554:5640" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="5680:5769" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="5870:6480" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="6015:6098" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="6267:6353" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="6575:6789" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="6825:10231" ph="With selector and parameter" />
+            <marker date="1517101717105" expanded="true" signature="6909:10217" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="6914:7307" ph="Slinqs" />
+            <marker date="1517101717105" expanded="true" signature="7109:7293" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="7311:8016" ph="Context" />
+            <marker date="1517101717105" expanded="true" signature="7784:8000" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="8022:10211" ph="Delegates" />
+            <marker date="1517101717105" expanded="true" signature="8391:9179" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="8456:8615" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="8730:8856" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="8955:9041" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="9081:9170" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="9274:9887" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="9422:9505" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="9674:9760" ph="{...}" />
+            <marker date="1517101717105" expanded="true" signature="9983:10197" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Context/Simple/IListContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1517101727799" expanded="true" signature="6:106" ph="..." />
+            <marker date="1517101727799" expanded="true" signature="158:3708" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="191:3706" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="196:730" ph="Slinqs" />
+            <marker date="1517101727799" expanded="true" signature="301:432" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="546:716" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="734:1177" ph="Instance" />
+            <marker date="1517101727799" expanded="true" signature="1009:1163" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="1181:3700" ph="Delegates" />
+            <marker date="1517101727799" expanded="true" signature="1202:2315" ph="Values" />
+            <marker date="1517101727799" expanded="true" signature="1508:1786" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="1636:1716" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="1866:2163" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="1973:2033" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="2067:2096" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="2244:2301" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="2319:3684" ph="Values with index" />
+            <marker date="1517101727799" expanded="true" signature="2745:3076" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="2876:2994" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="3179:3497" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="3286:3358" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="3392:3421" ph="{...}" />
+            <marker date="1517101727799" expanded="true" signature="3601:3670" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Slinqable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="151" column="42" lean-forward="false" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
+          <folding>
+            <marker date="1517101790437" expanded="true" signature="6:191" ph="..." />
+            <marker date="1517101790437" expanded="true" signature="228:17256" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="232:359" ph="/// Provides methods for creating basic Slinqs from various underlying collections or delegates. ... " />
+            <marker date="1517101790437" expanded="true" signature="391:17254" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="396:593" ph="Empty" />
+            <marker date="1517101790437" expanded="true" signature="415:497" ph="/// Returns an empty Slinq of the specified type. ... " />
+            <marker date="1517101790437" expanded="true" signature="540:577" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="597:1063" ph="IEnumerable" />
+            <marker date="1517101790437" expanded="true" signature="620:903" ph="/// Returns a Slinq that enumerates over the specified enumerable. ... " />
+            <marker date="1517101790437" expanded="true" signature="993:1049" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="1069:6059" ph="IList" />
+            <marker date="1517101790437" expanded="true" signature="1088:2210" ph="Explicit step" />
+            <marker date="1517101790437" expanded="true" signature="1115:1466" ph="/// Returns a Slinq that enumerates over the elements of the specified list using the specified start index and s ... " />
+            <marker date="1517101790437" expanded="true" signature="1564:1626" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="1632:1995" ph="/// Returns a Slinq that enumerates over the element, index pairs of the specified list using the specified start ... " />
+            <marker date="1517101790437" expanded="true" signature="2125:2196" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="2216:4091" ph="Ascending" />
+            <marker date="1517101790437" expanded="true" signature="2239:2464" ph="/// Returns a Slinq that enumerates over the elements of the specified list in ascending order. ... " />
+            <marker date="1517101790437" expanded="true" signature="2536:2586" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="2592:2829" ph="/// Returns a Slinq that enumerates over the element, index pairs of the specified list in ascending order. ... " />
+            <marker date="1517101790437" expanded="true" signature="2933:2992" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="2998:3361" ph="/// Returns a Slinq that enumerates over the elements of the specified list in ascending order starting with the  ... " />
+            <marker date="1517101790437" expanded="true" signature="3449:3508" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="3514:3889" ph="/// Returns a Slinq that enumerates over the element, index pairs of the specified list in ascending order starti ... " />
+            <marker date="1517101790437" expanded="true" signature="4009:4077" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="4097:6043" ph="Descending" />
+            <marker date="1517101790437" expanded="true" signature="4119:4345" ph="/// Returns a Slinq that enumerates over the elements of the specified list in descending order. ... " />
+            <marker date="1517101790437" expanded="true" signature="4427:4491" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="4497:4735" ph="/// Returns a Slinq that enumerates over the element, index pairs of the specified list in descending order. ... " />
+            <marker date="1517101790437" expanded="true" signature="4849:4922" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="4928:5291" ph="/// Returns a Slinq that enumerates over the elements of the specified list in decending order starting with the  ... " />
+            <marker date="1517101790437" expanded="true" signature="5389:5449" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="5455:5830" ph="/// Returns a Slinq that enumerates over the element, index pairs of the specified list in decending order starti ... " />
+            <marker date="1517101790437" expanded="true" signature="5960:6029" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="6065:9063" ph="LinkedList" />
+            <marker date="1517101790437" expanded="true" signature="6089:7427" ph="Explicit step" />
+            <marker date="1517101790437" expanded="true" signature="6116:6605" ph="/// Returns a Slinq that starts with the value of the specified node and proceeds along node links. ... " />
+            <marker date="1517101790437" expanded="true" signature="6701:6756" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="6760:7236" ph="/// Returns a Slinq that starts with the specified node and proceeds along node links. ... " />
+            <marker date="1517101790437" expanded="true" signature="7353:7413" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="7431:9049" ph="Ascending / Descending" />
+            <marker date="1517101790437" expanded="true" signature="7467:7697" ph="/// Returns a Slinq that enumerates over the values of the specified linked list in ascending order. ... " />
+            <marker date="1517101790437" expanded="true" signature="7779:7837" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="7843:8073" ph="/// Returns a Slinq that enumerates over the values of the specified linked list in decending order. ... " />
+            <marker date="1517101790437" expanded="true" signature="8165:8223" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="8227:8456" ph="/// Returns a Slinq that enumerates over the nodes of the specified linked list in ascending order. ... " />
+            <marker date="1517101790437" expanded="true" signature="8559:8622" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="8628:8857" ph="/// Returns a Slinq that enumerates over the nodes of the specified linked list in decending order. ... " />
+            <marker date="1517101790437" expanded="true" signature="8970:9033" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="9067:9391" ph="Option" />
+            <marker date="1517101790437" expanded="true" signature="9087:9252" ph="/// Returns a Slinq that enumerates the specified option. ... " />
+            <marker date="1517101790437" expanded="true" signature="9328:9375" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="9395:10126" ph="Range" />
+            <marker date="1517101790437" expanded="true" signature="9414:9596" ph="/// Returns a Slinq that enumerates the integers within a specified range. ... " />
+            <marker date="1517101790437" expanded="true" signature="9681:10110" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="9701:9963" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="9758:9899" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="9985:10049" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="10130:10951" ph="Repeat" />
+            <marker date="1517101790437" expanded="true" signature="10150:10311" ph="/// Returns a Slinq that repeats the specified value. ... " />
+            <marker date="1517101790437" expanded="true" signature="10374:10421" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="10427:10618" ph="/// Returns a Slinq that repeats the specified value the specified number of times. ... " />
+            <marker date="1517101790437" expanded="true" signature="10707:10937" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="10727:10788" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="10810:10876" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="10957:17250" ph="Sequence" />
+            <marker date="1517101790437" expanded="true" signature="10979:12754" ph="Generic Sequences" />
+            <marker date="1517101790437" expanded="true" signature="11010:11223" ph="/// Returns a Slinq that enumerates the sequence generated by specified seed value and selector function. ... " />
+            <marker date="1517101790437" expanded="true" signature="11314:11370" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="11376:11589" ph="/// Returns a Slinq that enumerates the sequence generated by specified seed value and selector function. ... " />
+            <marker date="1517101790437" expanded="true" signature="11702:11772" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="11778:12070" ph="/// Returns a Slinq that enumerates the sequence generated by specified seed value and selector function. ... " />
+            <marker date="1517101790437" expanded="true" signature="12175:12237" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="12243:12535" ph="/// Returns a Slinq that enumerates the sequence generated by specified seed value and selector function. ... " />
+            <marker date="1517101790437" expanded="true" signature="12662:12738" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="12760:17234" ph="Type specific sequences" />
+            <marker date="1517101790437" expanded="true" signature="12797:13014" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="13100:13188" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="13194:13411" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="13502:13593" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="13599:13816" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="13907:13998" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="14004:14221" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="14317:14411" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="14417:14634" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="14725:14806" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="14812:15029" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="15125:15208" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="15214:15431" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="15522:15603" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="15609:15826" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="15922:16005" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="16011:16228" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="16324:16407" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="16413:16630" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="16726:16809" ph="{...}" />
+            <marker date="1517101790437" expanded="true" signature="16815:17032" ph="/// Returns a Slinq that enumerates the arithmetic sequence generated by the specified start and step values. ... " />
+            <marker date="1517101790437" expanded="true" signature="17133:17218" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Test/WhereTakeSelectAggregateLinq.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Test/SlinqTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8955">
+          <caret line="645" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Test/UnionLinq.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Smooth/Foundations/Slinq/Slinq.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="2548" column="42" lean-forward="false" selection-start-line="2548" selection-start-column="42" selection-end-line="2548" selection-end-column="42" />
+          <folding>
+            <marker date="1517102009007" expanded="true" signature="6:280" ph="..." />
+            <marker date="1517102009007" expanded="true" signature="317:120208" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="321:2080" ph="/// Allocation-free enumerator with advanced, LINQ-like functionality. ... " />
+            <marker date="1517102009007" expanded="true" signature="2108:60828" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="2113:2861" ph="Internal API" />
+            <marker date="1517102009007" expanded="true" signature="2139:2201" ph="/// Part of the internal API. ... " />
+            <marker date="1517102009007" expanded="true" signature="2243:2305" ph="/// Part of the internal API. ... " />
+            <marker date="1517102009007" expanded="true" signature="2349:2411" ph="/// Part of the internal API. ... " />
+            <marker date="1517102009007" expanded="true" signature="2456:2518" ph="/// Part of the internal API. ... " />
+            <marker date="1517102009007" expanded="true" signature="2542:2604" ph="/// Part of the internal API. ... " />
+            <marker date="1517102009007" expanded="true" signature="2696:2845" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="2865:5234" ph="Basic operations for manual enumerations / while loops" />
+            <marker date="1517102009007" expanded="true" signature="2931:3209" ph="/// Either a Some option containing the current value of the enumeration, or a None option if the enumeration is  ... " />
+            <marker date="1517102009007" expanded="true" signature="3241:3382" ph="/// Moves the Slinq to the next element in the enumeration.  If the Slinq is empty this will have no effect. ... " />
+            <marker date="1517102009007" expanded="true" signature="3404:3475" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="3429:3471" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="3479:3642" ph="/// Moves the Slinq to the next element in the enumeration and returns the Slinq.  If the Slinq is empty this wil ... " />
+            <marker date="1517102009007" expanded="true" signature="3680:3767" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="3705:3747" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="3773:4113" ph="/// Removes the current element from the underlying sequence and moves the Slinq to the next element in the enume ... " />
+            <marker date="1517102009007" expanded="true" signature="4137:4210" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="4162:4206" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="4216:4576" ph="/// Removes the current element from the underlying sequence, moves the Slinq to the next element in the enumerat ... " />
+            <marker date="1517102009007" expanded="true" signature="4616:4705" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="4641:4685" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="4711:5121" ph="/// Sets the current value of the Slinq to None and releases any shared resources held by the Slinq.  If the Slin ... " />
+            <marker date="1517102009007" expanded="true" signature="5146:5220" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="5171:5216" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="5238:8215" ph="Parameterized skips" />
+            <marker date="1517102009007" expanded="true" signature="5269:5481" ph="/// Enumerates the remaining elements of the Slinq.  Useful if you want to force execution of the underlying chai ... " />
+            <marker date="1517102009007" expanded="true" signature="5506:5580" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="5534:5576" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="5586:6024" ph="/// Enumerates up to the specified number of elements from the Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="6062:6167" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="6105:6147" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="6173:6422" ph="/// Enumerates elements from the Slinq while the specified predicate returns true. ... " />
+            <marker date="1517102009007" expanded="true" signature="6487:6605" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="6543:6585" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="6611:6860" ph="/// Enumerates elements from the Slinq while the specified predicate returns true. ... " />
+            <marker date="1517102009007" expanded="true" signature="6944:7073" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="7011:7053" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="7079:7334" ph="/// Aggregates elements from the Slinq while the specified selector returns a Some option. ... " />
+            <marker date="1517102009007" expanded="true" signature="7407:7622" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="7435:7602" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="7504:7572" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="7628:7883" ph="/// Aggregates elements from the Slinq while the specified selector returns a Some option. ... " />
+            <marker date="1517102009007" expanded="true" signature="7975:8201" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="8003:8181" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="8083:8151" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="8219:22840" ph="Parameterized removes" />
+            <marker date="1517102009007" expanded="true" signature="8254:8629" ph="/// Enumerates the remaining elements from the Slinq, removes them from the underlying sequence, and returns the  ... " />
+            <marker date="1517102009007" expanded="true" signature="8655:8779" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="8701:8758" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="8785:9260" ph="/// Enumerates the remaining elements from the Slinq, removes them from the underlying sequence, and returns the  ... " />
+            <marker date="1517102009007" expanded="true" signature="9308:9484" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="9354:9463" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="9490:9998" ph="/// Enumerates the remaining elements from the Slinq, removes them from the underlying sequence, and returns the  ... " />
+            <marker date="1517102009007" expanded="true" signature="10069:10260" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="10115:10239" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="10266:10882" ph="/// Enumerates up to the specified number of elements from the Slinq and removes them from the underlying sequenc ... " />
+            <marker date="1517102009007" expanded="true" signature="10922:11029" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="10965:11009" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="11035:11751" ph="/// Enumerates up to the specified number of elements from the Slinq and removes them from the underlying sequenc ... " />
+            <marker date="1517102009007" expanded="true" signature="11815:11974" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="11858:11954" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="11980:12729" ph="/// Enumerates up to the specified number of elements from the Slinq and removes them from the underlying sequenc ... " />
+            <marker date="1517102009007" expanded="true" signature="12816:12990" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="12859:12970" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="12996:13429" ph="/// Enumerates elements from the Slinq and removes them from the underlying sequence while the specified predicat ... " />
+            <marker date="1517102009007" expanded="true" signature="13496:13616" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="13552:13596" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="13622:14155" ph="/// Enumerates elements from the Slinq and removes them from the underlying sequence while the specified predicat ... " />
+            <marker date="1517102009007" expanded="true" signature="14246:14418" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="14302:14398" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="14424:14989" ph="/// Enumerates elements from the Slinq and removes them from the underlying sequence while the specified predicat ... " />
+            <marker date="1517102009007" expanded="true" signature="15103:15290" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="15159:15270" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="15296:15729" ph="/// Enumerates elements from the Slinq and removes them from the underlying sequence while the specified predicat ... " />
+            <marker date="1517102009007" expanded="true" signature="15815:15946" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="15882:15926" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="15952:16485" ph="/// Enumerates elements from the Slinq and removes them from the underlying sequence while the specified predicat ... " />
+            <marker date="1517102009007" expanded="true" signature="16595:16778" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="16662:16758" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="16784:17350" ph="/// Enumerates elements from the Slinq and removes them from the underlying sequence while the specified predicat ... " />
+            <marker date="1517102009007" expanded="true" signature="17486:17684" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="17553:17664" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="17690:18131" ph="/// Aggregates elements from the Slinq and removes them from the underlying sequence while the specified selector ... " />
+            <marker date="1517102009007" expanded="true" signature="18206:18423" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="18234:18403" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="18303:18373" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="18429:18970" ph="/// Aggregates elements from the Slinq and removes them from the underlying sequence while the specified selector ... " />
+            <marker date="1517102009007" expanded="true" signature="19069:19340" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="19097:19320" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="19166:19290" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="19346:19920" ph="/// Aggregates elements from the Slinq and removes them from the underlying sequence while the specified selector ... " />
+            <marker date="1517102009007" expanded="true" signature="20042:20328" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="20070:20308" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="20139:20278" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="20334:20773" ph="/// Aggregates elements from the Slinq and removes them from the underlying sequence while the specified selector ... " />
+            <marker date="1517102009007" expanded="true" signature="20867:21095" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="20895:21075" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="20975:21045" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="21101:21540" ph="/// Aggregates elements from the Slinq and removes them from the underlying sequence while the specified selector ... " />
+            <marker date="1517102009007" expanded="true" signature="21658:21940" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="21686:21920" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="21766:21890" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="21944:22383" ph="/// Aggregates elements from the Slinq and removes them from the underlying sequence while the specified selector ... " />
+            <marker date="1517102009007" expanded="true" signature="22527:22824" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="22555:22804" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="22635:22774" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="22846:49283" ph="Consuming operations" />
+            <marker date="1517102009007" expanded="true" signature="22878:23012" ph="/// Analog to Enumerable.Aggregate(). ... " />
+            <marker date="1517102009007" expanded="true" signature="23066:23166" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="23170:23383" ph="/// Analog to Enumerable.Aggregate(), but returns an option rather than throwing an exception if the Slinq is emp ... " />
+            <marker date="1517102009007" expanded="true" signature="23451:23727" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="23476:23691" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="23570:23655" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="23731:23944" ph="/// Analog to Enumerable.Aggregate(), but returns an option rather than throwing an exception if the Slinq is emp ... " />
+            <marker date="1517102009007" expanded="true" signature="24031:24318" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="24056:24282" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="24150:24246" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="24324:24458" ph="/// Analog to Enumerable.Aggregate(). ... " />
+            <marker date="1517102009007" expanded="true" signature="24523:24655" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="24551:24635" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="24661:24795" ph="/// Analog to Enumerable.Aggregate(). ... " />
+            <marker date="1517102009007" expanded="true" signature="24898:24956" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="24962:25096" ph="/// Analog to Enumerable.Aggregate(). ... " />
+            <marker date="1517102009007" expanded="true" signature="25180:25323" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="25208:25303" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="25329:25506" ph="/// Aggregates elements from the Slinq while the selector returns a Some option. ... " />
+            <marker date="1517102009007" expanded="true" signature="25584:25839" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="25612:25819" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="25681:25749" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="25845:26022" ph="/// Aggregates elements from the Slinq while the selector returns a Some option. ... " />
+            <marker date="1517102009007" expanded="true" signature="26119:26385" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="26147:26365" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="26227:26295" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="26391:26519" ph="/// Analog to Enumerable.All(). ... " />
+            <marker date="1517102009007" expanded="true" signature="26571:26763" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="26599:26743" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="26636:26702" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="26769:26897" ph="/// Analog to Enumerable.All(). ... " />
+            <marker date="1517102009007" expanded="true" signature="26968:27171" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="26996:27151" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="27044:27110" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="27177:27305" ph="/// Analog to Enumerable.Any(). ... " />
+            <marker date="1517102009007" expanded="true" signature="27326:27434" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="27351:27413" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="27438:27566" ph="/// Analog to Enumerable.Any(). ... " />
+            <marker date="1517102009007" expanded="true" signature="27618:27809" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="27646:27788" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="27682:27747" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="27815:27943" ph="/// Analog to Enumerable.Any(). ... " />
+            <marker date="1517102009007" expanded="true" signature="28014:28216" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="28042:28195" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="28089:28154" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="28220:28353" ph="/// Analog to Enumerable.Contains(). ... " />
+            <marker date="1517102009007" expanded="true" signature="28386:28466" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="28470:28603" ph="/// Analog to Enumerable.Contains(). ... " />
+            <marker date="1517102009007" expanded="true" signature="28667:28871" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="28695:28850" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="28744:28809" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="28875:29005" ph="/// Analog to Enumerable.Count(). ... " />
+            <marker date="1517102009007" expanded="true" signature="29027:29149" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="29073:29128" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="29155:29289" ph="/// Analog to Enumerable.ElementAt(). ... " />
+            <marker date="1517102009007" expanded="true" signature="29322:29421" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="29425:29568" ph="/// Analog to Enumerable.ElementAtOrDefault(). ... " />
+            <marker date="1517102009007" expanded="true" signature="29610:29655" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="29661:29882" ph="/// Analog to Enumerable.ElementAt(), but returns an option rather than throwing an exception if the element does ... " />
+            <marker date="1517102009007" expanded="true" signature="29929:30109" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="29949:29997" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="30019:30051" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="30113:30243" ph="/// Analog to Enumerable.First(). ... " />
+            <marker date="1517102009007" expanded="true" signature="30263:30351" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="30355:30485" ph="/// Analog to Enumerable.First(). ... " />
+            <marker date="1517102009007" expanded="true" signature="30536:30633" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="30639:30778" ph="/// Analog to Enumerable.FirstOrDefault(). ... " />
+            <marker date="1517102009007" expanded="true" signature="30807:30843" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="30849:30988" ph="/// Analog to Enumerable.FirstOrDefault(). ... " />
+            <marker date="1517102009007" expanded="true" signature="31048:31093" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="31099:31308" ph="/// Analog to Enumerable.First(), but returns an option rather than throwing an exception if the Slinq is empty. ... " />
+            <marker date="1517102009007" expanded="true" signature="31342:31491" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="31367:31455" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="31497:31706" ph="/// Analog to Enumerable.First(), but returns an option rather than throwing an exception if the Slinq is empty. ... " />
+            <marker date="1517102009007" expanded="true" signature="31771:31899" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="31828:31870" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="31905:32114" ph="/// Analog to Enumerable.First(), but returns an option rather than throwing an exception if the Slinq is empty. ... " />
+            <marker date="1517102009007" expanded="true" signature="32198:32337" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="32266:32308" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="32343:32513" ph="/// Performs the specified action on each remaining element in the Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="32562:32663" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="32590:32659" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="32669:32868" ph="/// Performs the specified action on each remaining element in the Slinq with the specified parameter. ... " />
+            <marker date="1517102009007" expanded="true" signature="32936:33048" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="32964:33044" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="33052:33181" ph="/// Analog to Enumerable.Last(). ... " />
+            <marker date="1517102009007" expanded="true" signature="33200:33287" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="33293:33422" ph="/// Analog to Enumerable.Last(). ... " />
+            <marker date="1517102009007" expanded="true" signature="33472:33568" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="33574:33712" ph="/// Analog to Enumerable.LastOrDefault(). ... " />
+            <marker date="1517102009007" expanded="true" signature="33740:33775" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="33781:33919" ph="/// Analog to Enumerable.LastOrDefault(). ... " />
+            <marker date="1517102009007" expanded="true" signature="33978:34022" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="34028:34236" ph="/// Analog to Enumerable.Last(), but returns an option rather than throwing an exception if the Slinq is empty. ... " />
+            <marker date="1517102009007" expanded="true" signature="34269:34409" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="34327:34389" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="34415:34623" ph="/// Analog to Enumerable.Last(), but returns an option rather than throwing an exception if the Slinq is empty. ... " />
+            <marker date="1517102009007" expanded="true" signature="34687:34870" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="34745:34850" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="34781:34809" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="34876:35084" ph="/// Analog to Enumerable.Last(), but returns an option rather than throwing an exception if the Slinq is empty. ... " />
+            <marker date="1517102009007" expanded="true" signature="35167:35361" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="35225:35341" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="35272:35300" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="35365:35493" ph="/// Analog to Enumerable.Max(). ... " />
+            <marker date="1517102009007" expanded="true" signature="35511:35677" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="35549:35671" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="35578:35609" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="35681:35910" ph="/// Analog to Enumerable.Max(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="35942:35992" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="35996:36225" ph="/// Analog to Enumerable.Max(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="36278:36343" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="36349:36578" ph="/// Analog to Enumerable.Max(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="36634:36958" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="36659:36922" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="36755:36884" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="36804:36841" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="36962:37191" ph="/// Analog to Enumerable.Max(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="37253:37313" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="37317:37546" ph="/// Analog to Enumerable.Max(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="37631:37706" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="37712:37941" ph="/// Analog to Enumerable.Max(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="38029:38458" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="38054:38422" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="38189:38384" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="38280:38341" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="38462:38691" ph="/// Analog to Enumerable.Max(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="38772:38843" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="38847:39076" ph="/// Analog to Enumerable.Max(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="39180:39266" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="39272:39501" ph="/// Analog to Enumerable.Max(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="39608:40059" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="39633:40023" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="39779:39985" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="39881:39942" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="40066:40194" ph="/// Analog to Enumerable.Min(). ... " />
+            <marker date="1517102009007" expanded="true" signature="40212:40378" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="40250:40372" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="40279:40310" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="40382:40611" ph="/// Analog to Enumerable.Min(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="40643:40693" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="40697:40926" ph="/// Analog to Enumerable.Min(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="40973:41038" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="41044:41273" ph="/// Analog to Enumerable.Min(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="41329:41653" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="41354:41617" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="41450:41579" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="41499:41536" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="41657:41886" ph="/// Analog to Enumerable.Min(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="41948:42008" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="42014:42243" ph="/// Analog to Enumerable.Min(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="42328:42403" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="42407:42636" ph="/// Analog to Enumerable.Min(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="42724:43153" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="42749:43117" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="42884:43079" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="42975:43036" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="43157:43386" ph="/// Analog to Enumerable.Min(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="43467:43538" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="43542:43771" ph="/// Analog to Enumerable.Min(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="43875:43961" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="43965:44194" ph="/// Analog to Enumerable.Min(), but returns an option rather than throwing an exception if the Slinq is empty and ... " />
+            <marker date="1517102009007" expanded="true" signature="44301:44752" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="44326:44716" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="44472:44678" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="44574:44635" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="44756:44894" ph="/// Analog to Enumerable.SequenceEqual(). ... " />
+            <marker date="1517102009007" expanded="true" signature="44947:45060" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="45064:45202" ph="/// Analog to Enumerable.SequenceEqual(). ... " />
+            <marker date="1517102009007" expanded="true" signature="45293:45376" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="45382:45520" ph="/// Analog to Enumerable.SequenceEqual(). ... " />
+            <marker date="1517102009007" expanded="true" signature="45615:46180" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="45667:45958" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="45724:45823" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="45983:46046" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="46078:46159" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="46186:46317" ph="/// Analog to Enumerable.Single(). ... " />
+            <marker date="1517102009007" expanded="true" signature="46338:46427" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="46433:46573" ph="/// Analog to Enumerable.SingleOrDefault(). ... " />
+            <marker date="1517102009007" expanded="true" signature="46603:46758" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="46628:46719" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="46764:47008" ph="/// Analog to Enumerable.Single(), but returns an option rather than throwing an exception if the Slinq is empty  ... " />
+            <marker date="1517102009007" expanded="true" signature="47043:47303" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="47068:47267" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="47155:47231" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="47307:47952" ph="/// Splits the remaining elements into a pair of lists, with the first list containing elements starting from the ... " />
+            <marker date="1517102009007" expanded="true" signature="48039:49269" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="48064:49180" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="48085:49053" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="48284:48451" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="48488:48956" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="48672:48920" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="49287:60824" ph="Add / convert to collection" />
+            <marker date="1517102009007" expanded="true" signature="49326:49523" ph="/// Adds the remaining elements in the Slinq to the specified collection and returns the collection. ... " />
+            <marker date="1517102009007" expanded="true" signature="49587:49718" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="49615:49692" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="49724:49921" ph="/// Adds the remaining elements in the Slinq to the specified collection and returns the collection. ... " />
+            <marker date="1517102009007" expanded="true" signature="50009:50064" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="50068:50294" ph="/// Adds the remaining elements in the Slinq to the specified collection using the specified selector and returns ... " />
+            <marker date="1517102009007" expanded="true" signature="50390:50531" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="50418:50505" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="50535:50761" ph="/// Adds the remaining elements in the Slinq to the specified collection using the specified selector and returns ... " />
+            <marker date="1517102009007" expanded="true" signature="50881:50946" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="50952:51178" ph="/// Adds the remaining elements in the Slinq to the specified collection using the specified selector and returns ... " />
+            <marker date="1517102009007" expanded="true" signature="51293:51445" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="51321:51419" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="51451:51677" ph="/// Adds the remaining elements in the Slinq to the specified collection using the specified selector and returns ... " />
+            <marker date="1517102009007" expanded="true" signature="51816:51892" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="51898:52098" ph="/// Adds the remaining elements in the Slinq to the specified LinkedHeadTail&lt;T&gt; and returns the result. ... " />
+            <marker date="1517102009007" expanded="true" signature="52156:52459" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="52181:52439" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="52283:52434" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="52465:52682" ph="/// Adds the remaining elements in the Slinq to the specified LinkedHeadTail&lt;T&gt; in reverse order and returns the  ... " />
+            <marker date="1517102009007" expanded="true" signature="52747:53131" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="52772:53098" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="52893:53050" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="53137:53373" ph="/// Adds the remaining elements in the Slinq to the specified LinkedHeadTail&lt;K, T&gt; using the specified key select ... " />
+            <marker date="1517102009007" expanded="true" signature="53469:53825" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="53494:53805" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="53621:53800" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="53831:54067" ph="/// Adds the remaining elements in the Slinq to the specified LinkedHeadTail&lt;K, T&gt; using the specified key select ... " />
+            <marker date="1517102009007" expanded="true" signature="54182:54560" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="54207:54540" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="54345:54535" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="54566:54819" ph="/// Adds the remaining elements in the Slinq to the specified LinkedHeadTail&lt;K, T&gt; in reverse order using the spe ... " />
+            <marker date="1517102009007" expanded="true" signature="54922:55362" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="54947:55329" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="55096:55281" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="55368:55621" ph="/// Adds the remaining elements in the Slinq to the specified LinkedHeadTail&lt;K, T&gt; in reverse order using the spe ... " />
+            <marker date="1517102009007" expanded="true" signature="55743:56205" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="55768:56172" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="55928:56124" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="56211:56439" ph="/// Adds the remaining elements in the Slinq to the specified Lookup&lt;K, T&gt; using the specified key selector and r ... " />
+            <marker date="1517102009007" expanded="true" signature="56521:56669" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="56549:56647" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="56675:56903" ph="/// Adds the remaining elements in the Slinq to the specified Lookup&lt;K, T&gt; using the specified key selector and r ... " />
+            <marker date="1517102009007" expanded="true" signature="57004:57163" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="57032:57141" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="57169:57315" ph="/// Converts the Slinq into a singly linked list. ... " />
+            <marker date="1517102009007" expanded="true" signature="57354:57401" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="57407:57569" ph="/// Converts the Slinq into an order-reversed singly linked list. ... " />
+            <marker date="1517102009007" expanded="true" signature="57615:57669" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="57675:57865" ph="/// Converts the Slinq into a singly linked key, value list using the specified key selector. ... " />
+            <marker date="1517102009007" expanded="true" signature="57937:57997" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="58001:58191" ph="/// Converts the Slinq into a singly linked key, value list using the specified key selector. ... " />
+            <marker date="1517102009007" expanded="true" signature="58282:58353" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="58359:58565" ph="/// Converts the Slinq into an order-reversed singly linked key, value list using the specified key selector. ... " />
+            <marker date="1517102009007" expanded="true" signature="58644:58711" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="58717:58923" ph="/// Converts the Slinq into an order-reversed singly linked key, value list using the specified key selector. ... " />
+            <marker date="1517102009007" expanded="true" signature="59021:59099" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="59105:59272" ph="/// Converts the Slinq into a lookup using the specified key selector. ... " />
+            <marker date="1517102009007" expanded="true" signature="59336:59437" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="59443:59632" ph="/// Converts the Slinq into a lookup using the specified key selector and equality comparer. ... " />
+            <marker date="1517102009007" expanded="true" signature="59727:59790" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="59796:59985" ph="/// Converts the Slinq into a lookup using the specified key selector and equality comparer. ... " />
+            <marker date="1517102009007" expanded="true" signature="60068:60180" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="60186:60375" ph="/// Converts the Slinq into a lookup using the specified key selector and equality comparer. ... " />
+            <marker date="1517102009007" expanded="true" signature="60489:60563" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="60569:60730" ph="/// Converts the Slinq into a List&lt;T&gt; borrowed from ListPool&lt;T&gt;. ... " />
+            <marker date="1517102009007" expanded="true" signature="60757:60810" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="60831:60972" ph="/// Provides methods for the creation of chained Slinqs as well as various type specific Slinq comprehensions. ... " />
+            <marker date="1517102009007" expanded="true" signature="61000:120206" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="61005:113699" ph="Chained Slinqs" />
+            <marker date="1517102009007" expanded="true" signature="61033:61156" ph="/// Returns a chained Slinq that performs a running aggegatation over the specified Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="61299:61381" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="61387:61510" ph="/// Returns a chained Slinq that performs a running aggegatation over the specified Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="61675:61771" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="61777:61844" ph="/// Analog to Enumerable.Concat(). ... " />
+            <marker date="1517102009007" expanded="true" signature="61957:62019" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="62025:62100" ph="/// Analog to Enumerable.DefaultIfEmpty(). ... " />
+            <marker date="1517102009007" expanded="true" signature="62210:62405" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="62409:62484" ph="/// Analog to Enumerable.DefaultIfEmpty(). ... " />
+            <marker date="1517102009007" expanded="true" signature="62610:62807" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="62811:62880" ph="/// Analog to Enumerable.Distinct(). ... " />
+            <marker date="1517102009007" expanded="true" signature="62967:63070" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="63076:63145" ph="/// Analog to Enumerable.Distinct(). ... " />
+            <marker date="1517102009007" expanded="true" signature="63263:63374" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="63380:63449" ph="/// Analog to Enumerable.Distinct(). ... " />
+            <marker date="1517102009007" expanded="true" signature="63571:63687" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="63693:63762" ph="/// Analog to Enumerable.Distinct(). ... " />
+            <marker date="1517102009007" expanded="true" signature="63915:64039" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="64045:64114" ph="/// Analog to Enumerable.Distinct(). ... " />
+            <marker date="1517102009007" expanded="true" signature="64258:64388" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="64394:64463" ph="/// Analog to Enumerable.Distinct(). ... " />
+            <marker date="1517102009007" expanded="true" signature="64638:64776" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="64782:64849" ph="/// Analog to Enumerable.Except(). ... " />
+            <marker date="1517102009007" expanded="true" signature="64958:65072" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="65078:65145" ph="/// Analog to Enumerable.Except(). ... " />
+            <marker date="1517102009007" expanded="true" signature="65285:65407" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="65413:65480" ph="/// Analog to Enumerable.Except(). ... " />
+            <marker date="1517102009007" expanded="true" signature="65624:65761" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="65767:65834" ph="/// Analog to Enumerable.Except(). ... " />
+            <marker date="1517102009007" expanded="true" signature="66009:66154" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="66160:66227" ph="/// Analog to Enumerable.Except(). ... " />
+            <marker date="1517102009007" expanded="true" signature="66393:66555" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="66561:66628" ph="/// Analog to Enumerable.Except(). ... " />
+            <marker date="1517102009007" expanded="true" signature="66825:66995" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="66999:67164" ph="/// Returns a chained Slinq that enumerates over each of the nested elements in the specified Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="67272:67329" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="67333:67498" ph="/// Returns a chained Slinq that enumerates over each of the nested elements in the specified Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="67592:67644" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="67650:67718" ph="/// Analog to Enumerable.GroupBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="67867:67974" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="67980:68048" ph="/// Analog to Enumerable.GroupBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="68228:68297" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="68303:68371" ph="/// Analog to Enumerable.GroupBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="68539:68657" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="68663:68731" ph="/// Analog to Enumerable.GroupBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="68930:69010" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="69016:69138" ph="/// Analog to Enumerable.GroupJoin(), with removal operations chained to the outer Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="69407:69559" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="69565:69687" ph="/// Analog to Enumerable.GroupJoin(), with removal operations chained to the outer Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="69987:70101" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="70107:70229" ph="/// Analog to Enumerable.GroupJoin(), with removal operations chained to the outer Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="70526:70700" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="70706:70828" ph="/// Analog to Enumerable.GroupJoin(), with removal operations chained to the outer Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="71156:71292" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="71298:71368" ph="/// Analog to Enumerable.Intersect(). ... " />
+            <marker date="1517102009007" expanded="true" signature="71480:71597" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="71603:71673" ph="/// Analog to Enumerable.Intersect(). ... " />
+            <marker date="1517102009007" expanded="true" signature="71816:71941" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="71947:72017" ph="/// Analog to Enumerable.Intersect(). ... " />
+            <marker date="1517102009007" expanded="true" signature="72164:72304" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="72310:72380" ph="/// Analog to Enumerable.Intersect(). ... " />
+            <marker date="1517102009007" expanded="true" signature="72558:72706" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="72712:72782" ph="/// Analog to Enumerable.Intersect(). ... " />
+            <marker date="1517102009007" expanded="true" signature="72951:73116" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="73122:73192" ph="/// Analog to Enumerable.Intersect(). ... " />
+            <marker date="1517102009007" expanded="true" signature="73392:73565" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="73569:73686" ph="/// Analog to Enumerable.Join(), with removal operations chained to the outer Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="73919:74066" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="74072:74189" ph="/// Analog to Enumerable.Join(), with removal operations chained to the outer Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="74453:74562" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="74568:74685" ph="/// Analog to Enumerable.Join(), with removal operations chained to the outer Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="74946:75115" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="75121:75238" ph="/// Analog to Enumerable.Join(), with removal operations chained to the outer Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="75530:75661" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="75665:76060" ph="/// Analog to Enumerable.OrderBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="76142:76248" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="76254:76649" ph="/// Analog to Enumerable.OrderBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="76754:76830" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="76836:77231" ph="/// Analog to Enumerable.OrderBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="77339:77388" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="77394:77799" ph="/// Analog to Enumerable.OrderByDescending(). ... " />
+            <marker date="1517102009007" expanded="true" signature="77891:77998" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="78004:78409" ph="/// Analog to Enumerable.OrderByDescending(). ... " />
+            <marker date="1517102009007" expanded="true" signature="78524:78601" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="78607:79012" ph="/// Analog to Enumerable.OrderByDescending(). ... " />
+            <marker date="1517102009007" expanded="true" signature="79130:79180" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="79186:79693" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq as ordered by the specified key s ... " />
+            <marker date="1517102009007" expanded="true" signature="79817:79971" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="79977:80372" ph="/// Analog to Enumerable.OrderBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="80489:80605" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="80611:81006" ph="/// Analog to Enumerable.OrderBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="81146:81232" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="81238:81633" ph="/// Analog to Enumerable.OrderBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="81776:81835" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="81841:82246" ph="/// Analog to Enumerable.OrderByDescending(). ... " />
+            <marker date="1517102009007" expanded="true" signature="82373:82490" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="82496:82901" ph="/// Analog to Enumerable.OrderByDescending(). ... " />
+            <marker date="1517102009007" expanded="true" signature="83051:83138" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="83144:83549" ph="/// Analog to Enumerable.OrderByDescending(). ... " />
+            <marker date="1517102009007" expanded="true" signature="83702:83762" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="83768:84275" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq as ordered by the specified key s ... " />
+            <marker date="1517102009007" expanded="true" signature="84434:84599" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="84605:85000" ph="/// Analog to Enumerable.OrderBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="85136:85263" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="85269:85664" ph="/// Analog to Enumerable.OrderBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="85823:85920" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="85926:86321" ph="/// Analog to Enumerable.OrderBy(). ... " />
+            <marker date="1517102009007" expanded="true" signature="86483:86553" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="86559:86964" ph="/// Analog to Enumerable.OrderByDescending(). ... " />
+            <marker date="1517102009007" expanded="true" signature="87110:87238" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="87244:87649" ph="/// Analog to Enumerable.OrderByDescending(). ... " />
+            <marker date="1517102009007" expanded="true" signature="87818:87916" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="87922:88327" ph="/// Analog to Enumerable.OrderByDescending(). ... " />
+            <marker date="1517102009007" expanded="true" signature="88499:88570" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="88576:89083" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq as ordered by the specified key s ... " />
+            <marker date="1517102009007" expanded="true" signature="89261:89437" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="89441:89885" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="90004:90170" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="90176:90598" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="90779:90930" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="90936:91349" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="91533:91657" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="91661:92118" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="92247:92414" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="92420:92855" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="93046:93198" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="93204:93630" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="93824:93949" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="93953:94397" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="94535:94712" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="94718:95140" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="95340:95502" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="95508:95921" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="96124:96259" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="96265:96722" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="96870:97048" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="97054:97489" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="97699:97862" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="97868:98294" ph="/// Returns a chained Slinq that enumerates the elements of the specified Slinq ordered by grouping the elements  ... " />
+            <marker date="1517102009007" expanded="true" signature="98507:98643" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="98647:98715" ph="/// Analog to Enumerable.Reverse(). ... " />
+            <marker date="1517102009007" expanded="true" signature="98797:98922" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="98928:98995" ph="/// Analog to Enumerable.Select(). ... " />
+            <marker date="1517102009007" expanded="true" signature="99114:99177" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="99183:99250" ph="/// Analog to Enumerable.Select(). ... " />
+            <marker date="1517102009007" expanded="true" signature="99391:99468" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="99474:99545" ph="/// Analog to Enumerable.SelectMany(). ... " />
+            <marker date="1517102009007" expanded="true" signature="99692:99768" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="99774:99845" ph="/// Analog to Enumerable.SelectMany(). ... " />
+            <marker date="1517102009007" expanded="true" signature="100014:100104" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="100110:100181" ph="/// Analog to Enumerable.SelectMany(). ... " />
+            <marker date="1517102009007" expanded="true" signature="100318:100391" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="100397:100468" ph="/// Analog to Enumerable.SelectMany(). ... " />
+            <marker date="1517102009007" expanded="true" signature="100627:100714" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="100718:100783" ph="/// Analog to Enumerable.Take(). ... " />
+            <marker date="1517102009007" expanded="true" signature="100873:100925" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="100931:101294" ph="/// Returns a chained Slinq that contains up to count elements from the end of the specified Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="101389:101603" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="101420:101542" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="101609:101679" ph="/// Analog to Enumerable.TakeWhile(). ... " />
+            <marker date="1517102009007" expanded="true" signature="101802:101869" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="101875:101945" ph="/// Analog to Enumerable.TakeWhile(). ... " />
+            <marker date="1517102009007" expanded="true" signature="102090:102171" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="102177:102243" ph="/// Analog to Enumerable.Where(). ... " />
+            <marker date="1517102009007" expanded="true" signature="102362:102425" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="102431:102497" ph="/// Analog to Enumerable.Where(). ... " />
+            <marker date="1517102009007" expanded="true" signature="102638:102715" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="102721:102787" ph="/// Analog to Enumerable.Union(). ... " />
+            <marker date="1517102009007" expanded="true" signature="102917:103010" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="103016:103082" ph="/// Analog to Enumerable.Union(). ... " />
+            <marker date="1517102009007" expanded="true" signature="103243:103298" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="103304:103370" ph="/// Analog to Enumerable.Union(). ... " />
+            <marker date="1517102009007" expanded="true" signature="103535:103638" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="103644:103710" ph="/// Analog to Enumerable.Union(). ... " />
+            <marker date="1517102009007" expanded="true" signature="103906:103971" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="103977:104043" ph="/// Analog to Enumerable.Union(). ... " />
+            <marker date="1517102009007" expanded="true" signature="104230:104344" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="104350:104416" ph="/// Analog to Enumerable.Union(). ... " />
+            <marker date="1517102009007" expanded="true" signature="104634:104710" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="104716:104863" ph="/// Analog to Enumerable.Zip() that combines elements into tuples and chains removal operations to the left Slinq ... " />
+            <marker date="1517102009007" expanded="true" signature="104999:105078" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="105084:105243" ph="/// Analog to Enumerable.Zip() that combines elements into tuples and chains removal operations to the the specif ... " />
+            <marker date="1517102009007" expanded="true" signature="105407:105478" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="105482:105595" ph="/// Analog to Enumerable.Zip() that chains removal operations to the left Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="105748:105840" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="105846:105967" ph="/// Analog to Enumerable.Zip() that chains removal operations to the specified Slinq(s). ... " />
+            <marker date="1517102009007" expanded="true" signature="106148:106232" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="106236:106349" ph="/// Analog to Enumerable.Zip() that chains removal operations to the left Slinq. ... " />
+            <marker date="1517102009007" expanded="true" signature="106524:106630" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="106636:106757" ph="/// Analog to Enumerable.Zip() that chains removal operations to the specified Slinq(s). ... " />
+            <marker date="1517102009007" expanded="true" signature="106960:107058" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="107062:107830" ph="/// Returns a Slinq that combines the corresponding elements from the supplied Slinqs into tuples and chains remo ... " />
+            <marker date="1517102009007" expanded="true" signature="107988:108073" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="108079:108855" ph="/// Returns a Slinq that combines the corresponding elements from the supplied Slinqs into tuples and chains remo ... " />
+            <marker date="1517102009007" expanded="true" signature="109041:109118" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="109124:109867" ph="/// Returns a Slinq that combines the corresponding elements from the supplied Slinqs using the supplied selector ... " />
+            <marker date="1517102009007" expanded="true" signature="110042:110140" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="110146:110897" ph="/// Returns a Slinq that combines the corresponding elements from the supplied Slinqs using the supplied selector ... " />
+            <marker date="1517102009007" expanded="true" signature="111100:111190" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="111196:111939" ph="/// Returns a Slinq that combines the corresponding elements from the supplied Slinqs using the supplied selector ... " />
+            <marker date="1517102009007" expanded="true" signature="112136:112248" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="112254:113005" ph="/// Returns a Slinq that combines the corresponding elements from the supplied Slinqs using the supplied selector ... " />
+            <marker date="1517102009007" expanded="true" signature="113230:113334" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="113340:113426" ph="/// Zips the specified Slinq with a zero-based index. ... " />
+            <marker date="1517102009007" expanded="true" signature="113564:113683" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="113703:120202" ph="Type specific aggregations" />
+            <marker date="1517102009007" expanded="true" signature="113741:118297" ph="Average" />
+            <marker date="1517102009007" expanded="true" signature="113760:113892" ph="/// Analog to Enumerable.Average(). ... " />
+            <marker date="1517102009007" expanded="true" signature="113955:114050" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="114054:114186" ph="/// Analog to Enumerable.Average(). ... " />
+            <marker date="1517102009007" expanded="true" signature="114249:114344" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="114350:114482" ph="/// Analog to Enumerable.Average(). ... " />
+            <marker date="1517102009007" expanded="true" signature="114546:114641" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="114647:114779" ph="/// Analog to Enumerable.Average(). ... " />
+            <marker date="1517102009007" expanded="true" signature="114843:114938" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="114942:115253" ph="/*&#9;&#9;/// Analog to Enumerable.Average(). ... */" />
+            <marker date="1517102009007" expanded="true" signature="115257:115461" ph="/// Analog to Enumerable.Average(), but returns an option rather than throwing an exception on empty input. ... " />
+            <marker date="1517102009007" expanded="true" signature="115538:115850" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="115569:115801" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="115643:115752" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="115856:116060" ph="/// Analog to Enumerable.Average(), but returns an option rather than throwing an exception on empty input. ... " />
+            <marker date="1517102009007" expanded="true" signature="116137:116449" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="116168:116400" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="116242:116351" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="116455:116659" ph="/// Analog to Enumerable.Average(), but returns an option rather than throwing an exception on empty input. ... " />
+            <marker date="1517102009007" expanded="true" signature="116737:117049" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="116768:117000" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="116842:116951" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="117055:117259" ph="/// Analog to Enumerable.Average(), but returns an option rather than throwing an exception on empty input. ... " />
+            <marker date="1517102009007" expanded="true" signature="117337:117649" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="117368:117600" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="117442:117551" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="117653:118283" ph="/*&#9;&#9;/// Analog to Enumerable.Average(), but returns an option rather than throwing an exception on empty input. ... */" />
+            <marker date="1517102009007" expanded="true" signature="118303:120188" ph="Sum" />
+            <marker date="1517102009007" expanded="true" signature="118320:118448" ph="/// Analog to Enumerable.Sum(). ... " />
+            <marker date="1517102009007" expanded="true" signature="118506:118693" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="118573:118668" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="118699:118827" ph="/// Analog to Enumerable.Sum(). ... " />
+            <marker date="1517102009007" expanded="true" signature="118885:119072" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="118952:119047" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="119078:119206" ph="/// Analog to Enumerable.Sum(). ... " />
+            <marker date="1517102009007" expanded="true" signature="119266:119430" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="119319:119411" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="119436:119564" ph="/// Analog to Enumerable.Sum(). ... " />
+            <marker date="1517102009007" expanded="true" signature="119624:119788" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="119677:119769" ph="{...}" />
+            <marker date="1517102009007" expanded="true" signature="119792:120172" ph="/*&#9;&#9;/// Analog to Enumerable.Sum(). ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <marker date="1517101029590" expanded="true" signature="6:130" ph="..." />
+            <marker date="1517101029590" expanded="true" signature="151:1675" ph="{...}" />
+            <marker date="1517101029590" expanded="true" signature="198:1673" ph="{...}" />
+            <marker date="1517101029590" expanded="true" signature="566:775" ph="{...}" />
+            <marker date="1517101029590" expanded="true" signature="820:872" ph="{...}" />
+            <marker date="1517101029590" expanded="true" signature="905:1055" ph="{...}" />
+            <marker date="1517101029590" expanded="true" signature="956:1045" ph="{...}" />
+            <marker date="1517101029590" expanded="true" signature="1087:1120" ph="{...}" />
+            <marker date="1517101029590" expanded="true" signature="1165:1395" ph="{...}" />
+            <marker date="1517101029590" expanded="true" signature="1445:1667" ph="{...}" />
+            <marker date="1517101029590" expanded="true" signature="1497:1630" ph="{...}" />
           </folding>
         </state>
       </provider>
