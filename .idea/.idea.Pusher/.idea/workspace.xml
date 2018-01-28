@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e505182d-ee03-4d7f-a3b6-63d38f4b0ce3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Pusher/.idea/indexLayout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Pusher/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Pusher/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Pusher/riderModule.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Constants.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameRecord.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/0.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/1.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/10.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/11.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/12.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/2.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/3.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/4.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/5.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/6.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/7.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/8.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/9.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/crown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/BallsCustom/crown.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/MainMusic.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/MainMusic.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BallAnimation.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BallAnimation.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Bonus.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Bonus.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonAnimation.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonAnimation.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScaler.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScaler.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Effect.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Effect.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Empty.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Empty.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameScene.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameScene.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameSceneGUI.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameSceneGUI.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameSettings.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameSettings.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameState.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GameState.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/MainMusic.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/MainMusic.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/MenuScene.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/MenuScene.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SaveLoad.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SaveLoad.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SetBackground.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SetBackground.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SettingsManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/SettingsManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ShopManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ShopManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Textures/Version 1/фишки без цыфр.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/menu.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/menu.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Flare_Effect_V1/Plugins/Editor/HTSpriteSheetEditor.cs" afterPath="$PROJECT_DIR$/Assets/Flare_Effect_V1/Plugins/Editor/HTSpriteSheetEditor.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Flare_Effect_V1/Plugins/HTSpriteSheet.cs" afterPath="$PROJECT_DIR$/Assets/Flare_Effect_V1/Plugins/HTSpriteSheet.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts.meta" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UiManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <marker date="1517087298264" expanded="false" signature="6:104" ph="..." />
+                <marker date="1517087298264" expanded="true" signature="118:1785" ph="{...}" />
+                <marker date="1517087298264" expanded="true" signature="164:1783" ph="{...}" />
+                <marker date="1517087298264" expanded="true" signature="569:699" ph="{...}" />
+                <marker date="1517087298264" expanded="true" signature="731:900" ph="{...}" />
+                <marker date="1517087298264" expanded="true" signature="903:1021" ph="/* private void Update () { ... */" />
+                <marker date="1517087298264" expanded="true" signature="1049:1212" ph="{...}" />
+                <marker date="1517087298264" expanded="true" signature="1253:1335" ph="{...}" />
+                <marker date="1517087298264" expanded="true" signature="1379:1443" ph="{...}" />
+                <marker date="1517087298264" expanded="true" signature="1489:1777" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIButton.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding>
+                <marker date="1517087298294" expanded="false" signature="6:40" ph="..." />
+                <marker date="1517087298294" expanded="true" signature="91:241" ph="{...}" />
+                <marker date="1517087298294" expanded="true" signature="137:235" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <marker date="1517091340078" expanded="true" signature="6:42" ph="..." />
+                <marker date="1517091340078" expanded="true" signature="110:248" ph="{...}" />
+                <marker date="1517091340078" expanded="true" signature="209:242" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="20" />
+              <folding>
+                <marker date="1517087298314" expanded="true" signature="43:431" ph="{...}" />
+                <marker date="1517087298314" expanded="true" signature="199:219" ph="{...}" />
+                <marker date="1517087298314" expanded="true" signature="263:320" ph="{...}" />
+                <marker date="1517087298314" expanded="true" signature="368:425" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameSettings.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1517087298324" expanded="true" signature="19:163" ph="{...}" />
+                <marker date="1517087298324" expanded="true" signature="58:161" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OriginStyle.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/OriginStyle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding>
+                <marker date="1517091240339" expanded="true" signature="46:2855" ph="{...}" />
+                <marker date="1517091240339" expanded="true" signature="85:2853" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Style.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/Style.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding>
+                <marker date="1517091275331" expanded="true" signature="80:942" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceHolder.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/ResourceHolder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding>
+                <marker date="1517091252598" expanded="false" signature="6:52" ph="..." />
+                <marker date="1517091252598" expanded="true" signature="130:229" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameSceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/Bonus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/BallAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameRecord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/UIOldManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/SaveLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/Style.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/OriginStyle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Tasks/TaskObservableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/ResourceHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CE073096-ED89-4F7E-B8BF-05628286ED96/b5/0381224c/TaskCompletionSource`1.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptsOld/Ball.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43AEDF09-740C-4738-8480-FA7FD023E351/c4/7fb855dd/MonoBehaviour.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43AEDF09-740C-4738-8480-FA7FD023E351/2b/5531c008/RaycastHit2D.cs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43AEDF09-740C-4738-8480-FA7FD023E351/c4/7fb855dd/MonoBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/MenuScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/UIOldManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/GameSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Constants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Constants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/MainMusic.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/SaveLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/SoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameRecord.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/BallAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/Bonus.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptsOld/GameSceneGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Constants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Smooth/Foundations/Platform/BasePlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Resources/ResourceHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Style.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Resources/CustomStyle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Resources/DefaultStyle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Resources/OriginStyle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Resources/Style.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesControl/OriginStyle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesControl/Style.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesControl/ResourceHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameRecord.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Tasks/TaskObservableExtensions.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GameLogic" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pusher (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ResourcesControl" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/Scripts/ResourcesControl/OriginStyle.cs" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e505182d-ee03-4d7f-a3b6-63d38f4b0ce3" name="Default" comment="" />
+      <created>1516742246716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516742246716</updated>
+      <workItem from="1516742290021" duration="500000" />
+      <workItem from="1516826788907" duration="627000" />
+      <workItem from="1517075126944" duration="197000" />
+      <workItem from="1517075454734" duration="3233000" />
+      <workItem from="1517079130258" duration="4035000" />
+      <workItem from="1517087234978" duration="218000" />
+      <workItem from="1517087578197" duration="1829000" />
+      <workItem from="1517089536793" duration="348000" />
+      <workItem from="1517090068965" duration="158000" />
+      <workItem from="1517091016281" duration="333000" />
+      <workItem from="1517091461745" duration="130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11608000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16611843" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <marker date="1517087298324" expanded="true" signature="19:163" ph="{...}" />
+            <marker date="1517087298324" expanded="true" signature="58:161" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="55" />
+          <folding>
+            <marker date="1517087298264" expanded="false" signature="6:104" ph="..." />
+            <marker date="1517087298264" expanded="true" signature="118:1785" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="164:1783" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="569:699" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="731:900" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="903:1021" ph="/* private void Update () { ... */" />
+            <marker date="1517087298264" expanded="true" signature="1049:1212" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="1253:1335" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="1379:1443" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="1489:1777" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <marker date="1517087298294" expanded="false" signature="6:40" ph="..." />
+            <marker date="1517087298294" expanded="true" signature="91:241" ph="{...}" />
+            <marker date="1517087298294" expanded="true" signature="137:235" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Resources/ResourceHolder.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Smooth/Foundations/Platform/BasePlatform.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <marker date="1517087298314" expanded="true" signature="43:431" ph="{...}" />
+            <marker date="1517087298314" expanded="true" signature="199:219" ph="{...}" />
+            <marker date="1517087298314" expanded="true" signature="263:320" ph="{...}" />
+            <marker date="1517087298314" expanded="true" signature="368:425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <marker date="1517087298324" expanded="true" signature="19:163" ph="{...}" />
+            <marker date="1517087298324" expanded="true" signature="58:161" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <marker date="1517091340078" expanded="true" signature="6:42" ph="..." />
+            <marker date="1517091340078" expanded="true" signature="110:248" ph="{...}" />
+            <marker date="1517091340078" expanded="true" signature="209:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517087298264" expanded="false" signature="6:104" ph="..." />
+            <marker date="1517087298264" expanded="true" signature="118:1785" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="164:1783" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="569:699" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="731:900" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="903:1021" ph="/* private void Update () { ... */" />
+            <marker date="1517087298264" expanded="true" signature="1049:1212" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="1253:1335" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="1379:1443" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="1489:1777" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/UIOldManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Constants.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <marker date="1517087298324" expanded="true" signature="19:163" ph="{...}" />
+            <marker date="1517087298324" expanded="true" signature="58:161" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameRecord.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/Bonus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/BallAnimation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/MenuScene.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScene.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SetBackground.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43AEDF09-740C-4738-8480-FA7FD023E351/2b/5531c008/RaycastHit2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="101" column="22" lean-forward="false" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43AEDF09-740C-4738-8480-FA7FD023E351/c4/7fb855dd/MonoBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="90" column="46" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScene.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/MenuScene.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/SaveLoad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/UIOldManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/SoundManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/MainMusic.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/Bonus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/BallAnimation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameSceneGUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Constants.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/Ball.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="225" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Smooth/Foundations/Platform/BasePlatform.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <marker date="1517087298294" expanded="false" signature="6:40" ph="..." />
+            <marker date="1517087298294" expanded="true" signature="91:241" ph="{...}" />
+            <marker date="1517087298294" expanded="true" signature="137:235" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Resources/ResourceHolder.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <marker date="1517087298314" expanded="true" signature="43:431" ph="{...}" />
+            <marker date="1517087298314" expanded="true" signature="199:219" ph="{...}" />
+            <marker date="1517087298314" expanded="true" signature="263:320" ph="{...}" />
+            <marker date="1517087298314" expanded="true" signature="368:425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScriptsOld/GameScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <marker date="1517087298264" expanded="false" signature="6:104" ph="..." />
+            <marker date="1517087298264" expanded="true" signature="118:1785" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="164:1783" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="569:699" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="731:900" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="903:1021" ph="/* private void Update () { ... */" />
+            <marker date="1517087298264" expanded="true" signature="1049:1212" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="1253:1335" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="1379:1443" ph="{...}" />
+            <marker date="1517087298264" expanded="true" signature="1489:1777" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Resources/Style.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CE073096-ED89-4F7E-B8BF-05628286ED96/b5/0381224c/TaskCompletionSource`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="136" column="30" lean-forward="false" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Resources/OriginStyle.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/ResourceHolder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <marker date="1517091252598" expanded="false" signature="6:52" ph="..." />
+            <marker date="1517091252598" expanded="true" signature="130:229" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/Style.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1517091275331" expanded="true" signature="80:942" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <marker date="1517091340078" expanded="true" signature="6:42" ph="..." />
+            <marker date="1517091340078" expanded="true" signature="110:248" ph="{...}" />
+            <marker date="1517091340078" expanded="true" signature="209:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Tasks/TaskObservableExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="311" column="41" lean-forward="true" selection-start-line="311" selection-start-column="41" selection-end-line="311" selection-end-column="41" />
+          <folding>
+            <marker date="1517091500515" expanded="false" signature="93:154" ph="..." />
+            <marker date="1517091500515" expanded="true" signature="171:16871" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="178:297" ph="/// Provides a set of static methods for converting tasks to observable sequences. ... " />
+            <marker date="1517091500515" expanded="true" signature="346:16869" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="361:986" ph="/// Returns an observable sequence that signals when the task completes. ... " />
+            <marker date="1517091500515" expanded="true" signature="1055:1212" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="1222:2013" ph="/// Returns an observable sequence that signals when the task completes. ... " />
+            <marker date="1517091500515" expanded="true" signature="2104:2363" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="2455:3484" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="2550:3225" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="2664:3211" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="3242:3449" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="3273:3378" ph="/* Separate method to avoid closure in synchronous completion case. ... */" />
+            <marker date="1517091500515" expanded="true" signature="3576:3853" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="3935:4460" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="3978:4450" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="4470:5191" ph="/// Returns an observable sequence that propagates the result of the task. ... " />
+            <marker date="1517091500515" expanded="true" signature="5281:5438" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="5448:6335" ph="/// Returns an observable sequence that propagates the result of the task. ... " />
+            <marker date="1517091500515" expanded="true" signature="6447:6706" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="6819:7859" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="6917:7600" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="7031:7586" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="7617:7824" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="7648:7753" ph="/* Separate method to avoid closure in synchronous completion case. ... */" />
+            <marker date="1517091500515" expanded="true" signature="7972:8252" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="8355:8879" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="8398:8869" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="8976:10070" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="9078:10031" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="9109:9944" ph="/* We explicitly don't special-case the immediate scheduler here. If the user asks for a ... */" />
+            <marker date="1517091500515" expanded="true" signature="10196:10424" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="10241:10322" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="10339:10414" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="10434:11000" ph="/// Returns a task that will receive the last value or the exception produced by the observable sequence. ... " />
+            <marker date="1517091500515" expanded="true" signature="11090:11279" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="11289:11949" ph="/// Returns a task that will receive the last value or the exception produced by the observable sequence. ... " />
+            <marker date="1517091500515" expanded="true" signature="12053:12243" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="12253:12980" ph="/// Returns a task that will receive the last value or the exception produced by the observable sequence. ... " />
+            <marker date="1517091500515" expanded="true" signature="13107:13290" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="13300:14121" ph="/// Returns a task that will receive the last value or the exception produced by the observable sequence. ... " />
+            <marker date="1517091500515" expanded="true" signature="14262:16863" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="14694:14899" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="14763:14883" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="14992:15104" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="15127:15319" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="15342:15705" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="15734:16073" ph="/* Subtle race condition: if the source completes before we reach the line below, the SingleAssigmentDisposable ... */" />
+            <marker date="1517091500515" expanded="true" signature="16089:16721" ph="{...}" />
+            <marker date="1517091500515" expanded="true" signature="16120:16611" ph="/* [OK] Use of unsafe Subscribe: we're catching the exception here to set the TaskCompletionSource. ... */" />
+            <marker date="1517091500515" expanded="true" signature="16754:16823" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameRecord.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1517091491807" expanded="true" signature="45:268" ph="{...}" />
+            <marker date="1517091491807" expanded="true" signature="102:266" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/GameSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1517087298324" expanded="true" signature="19:163" ph="{...}" />
+            <marker date="1517087298324" expanded="true" signature="58:161" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesControl/OriginStyle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <marker date="1517091240339" expanded="true" signature="46:2855" ph="{...}" />
+            <marker date="1517091240339" expanded="true" signature="85:2853" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
