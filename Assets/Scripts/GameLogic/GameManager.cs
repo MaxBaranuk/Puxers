@@ -1,10 +1,13 @@
-﻿using System.Collections.Generic;
-using System.Runtime.Remoting.Messaging;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using ResourcesControl;
 using ScriptsOld;
-using Smooth.Foundations.Slinq;
+using Smooth.Slinq;
 using UniRx;
+using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 namespace GameLogic
 {
@@ -12,19 +15,24 @@ namespace GameLogic
     {
         public Game CurrentGame;
         public static GameSettings Settings;
+        public static int CurrentThrow = 1;
+        public static Dictionary<int, int> ComboHolder = new Dictionary<int, int>();
+        public static GameManager Instanse;
+        
         public Ball BallPrefab;
         [SerializeField] private Transform _ballsHolder;
-
+        [SerializeField] private Text _comboText;
         
         public BackgroundController bContr;
+       
         private readonly Queue<Ball> _ballsPool = new Queue<Ball>();
         private ResourceHolder _resourcesHolder;
         private AudioSource _mainMusic;
         private readonly List<Ball> _ballsOnScene = new List<Ball>(); 
 
         private void Awake()
-        {
-            
+        {           
+            if (Instanse == null) Instanse = GetComponent<GameManager>();
             Settings = SaveLoad.LoadGame();
             _mainMusic = GetComponent<AudioSource>();
             Settings.MusicOn.Subscribe(b => _mainMusic.mute = !b);
@@ -34,7 +42,18 @@ namespace GameLogic
         public void StartNewGame(Game game)
         {
             CurrentGame = game;
-            Slinqable.Repeat(0, 11).ForEach(_ => AddBall());
+            CurrentThrow = 0;
+            ComboHolder = new Dictionary<int, int>();
+            ComboHolder.Add(CurrentThrow, 0);
+            AddBalls(6, 500);
+        }
+
+        public static async void ShowCombo(int value)
+        {
+            Instanse._comboText.text = "x" + value;
+            Instanse._comboText.gameObject.SetActive(true);
+            await Task.Delay(TimeSpan.FromSeconds(2));
+            Instanse._comboText.gameObject.SetActive(false);
         }
 
         private void InitGame()
@@ -47,12 +66,17 @@ namespace GameLogic
             }
         }
 
-        private void AddBall()
+        public async void AddBalls(int count, int delay)
         {
-            var ball = _ballsPool.Dequeue();
-            _ballsOnScene.Add(ball);
-            ball.transform.localPosition = RandomizePosition(ball);
-            ball.gameObject.SetActive(true);
+            await Task.Delay(delay);
+            Slinqable.Repeat(0, count).ForEach(_ =>
+            {
+                var ball = _ballsPool.Dequeue();
+                _ballsOnScene.Add(ball);
+                ball.transform.localPosition = RandomizePosition(ball);
+                ball.gameObject.SetActive(true);
+            });
+            
         }
 
         private Vector2 RandomizePosition(Ball ball)

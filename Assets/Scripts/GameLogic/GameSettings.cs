@@ -9,7 +9,9 @@ namespace GameLogic
       public readonly IntReactiveProperty BestScore = new IntReactiveProperty();
 //      public int BestScore;
       public readonly BoolReactiveProperty MusicOn = new BoolReactiveProperty();
-      public readonly BoolReactiveProperty SoundsOn = new BoolReactiveProperty();
+
+      private readonly BoolReactiveProperty _soundsOn = new BoolReactiveProperty();
+      
 
       public static GameSettings CreateDefault()
       {
@@ -17,7 +19,7 @@ namespace GameLogic
          settings.CurrentStyle.Value = Style.Type.Origin;
          settings.BestScore.Value = 0;
          settings.MusicOn.Value = true;
-         settings.SoundsOn.Value = true;
+         settings._soundsOn.Value = true;
          return settings;
       }
 
