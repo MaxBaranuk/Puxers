@@ -7,7 +7,7 @@ namespace ScriptsOld
 		[SerializeField] private SpriteRenderer _playArea;
 		public Vector3 BackgroundSize => _extends;
 		public Vector3 _extends;
-		void Start () {
+		void Awake () {
 			Resize();
 		}
 

@@ -15,14 +15,8 @@ namespace Assets.Scripts.UI
         [SerializeField] private GameObject _startPanel;
         [SerializeField] private GameObject _selectPlayModePanel;
         [SerializeField] private GameObject _mainMenuPanel;
-        [SerializeField] private GameObject _gameUiPanel;
-        
-        private GameManager _gameManager;
-
-        private void Awake()
-        {       
-            _gameManager = GetComponent<GameManager>();           
-        }
+        [SerializeField] private GameObject _gameUiPanel;      
+        [SerializeField] private GameManager _gameManager;
 
         private void Start()
         {
@@ -50,6 +44,11 @@ namespace Assets.Scripts.UI
             _mainMenuPanel.SetActive(true);
         }
 
+        public void OpenStartPanel()
+        {
+            _startPanel.SetActive(true);
+        }
+        
         public void StartGame(bool isSingle)
         {
             _gameManager.CurrentGame.SetGameType(isSingle ? Game.GameType.Single : Game.GameType.TwoPlayers);

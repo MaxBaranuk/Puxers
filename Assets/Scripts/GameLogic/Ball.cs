@@ -1,24 +1,25 @@
-﻿using System.Collections.Generic;
-using Assets.Scripts.GameLogic;
+﻿using System.Threading.Tasks;
 using ResourcesControl;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
 
-namespace GameLogic
+namespace Assets.Scripts.GameLogic
 {
     public class Ball : MonoBehaviour
     {
        
         private Vector3 _strartTouchPosition;
-        public Vector3 BallSize;
+        public static Vector3 Size;
         public ReactiveProperty<int> Value = new ReactiveProperty<int>(1);
         private TextMesh _valueInfo;
 
         private Rigidbody2D _rigidbody;
         private Collider2D _collider;
         private SpriteRenderer _image;
-        private int _moveKey = 0;
+        private int _moveKey;
+        private bool _isActive;
+        private bool _isOverlap;
               
         private void Awake()
         {
@@ -26,14 +27,19 @@ namespace GameLogic
             _collider = GetComponent<Collider2D>();
             _image = GetComponent<SpriteRenderer>();
             _valueInfo = GetComponentInChildren<TextMesh>();
-            BallSize = GetComponent<SpriteRenderer>().sprite.bounds.size;
-            Value.Value = Random.Range(1, 6);
+
+            GameManager.ActivateBalls.Subscribe(_ =>
+            {
+                if(!_isActive)
+                    Active();
+            });
+            
             Value.Subscribe(i =>
             {
                 _valueInfo.text = i.ToString();
                 _image.sprite = ResourceHolder.Instanse.GetBallImage(i);
                 var combo = ++GameManager.ComboHolder[_moveKey];
-                if(combo > 1)
+                if(combo > 1 && _moveKey != 0)
                     GameManager.ShowCombo(combo);
             });
             
@@ -54,7 +60,7 @@ namespace GameLogic
                 {
                     var dir = x - _strartTouchPosition;
                     float force = dir.magnitude;
-                    if (force > BallSize.x * 2) dir = dir * BallSize.x * 2 / force;
+                    if (force > Size.x * 2) dir = dir * Size.x * 2 / force;
                     GetComponent<Rigidbody2D>().AddForce(- dir * 15, ForceMode2D.Impulse);
                     _moveKey = ++GameManager.CurrentThrow;
                     GameManager.ComboHolder.Add(_moveKey, 0);
@@ -74,6 +80,25 @@ namespace GameLogic
                 {
                     _collider.isTrigger = true;
                 });
+        }
+
+        private void OnEnable()
+        {
+            Value.Value = Random.Range(1, 6);
+            _isActive = false;
+        }
+
+        private void Active()
+        {
+            _isActive = true;
+            _image.color = Color.white;
+        }
+
+        private void OnDisable()
+        {
+            _collider.isTrigger = true;
+            _image.color = new Color(1, 1, 1, 0.5f);
+            GameManager.BallsPool.Enqueue(this);
         }
 
         private void Collide(Collider2D other)
@@ -100,11 +125,6 @@ namespace GameLogic
                 Value.Value++;
                 ball.gameObject.SetActive(false);
             }
-        }
-        
-        private void SetStyle(Style.Type style)
-        {
-            
         }
     }
 }
