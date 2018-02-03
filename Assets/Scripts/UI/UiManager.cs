@@ -1,10 +1,11 @@
-﻿using GameLogic;
+﻿using Assets.Scripts.GameLogic;
+using GameLogic;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
 using Game = GameLogic.Game;
 
-namespace UI
+namespace Assets.Scripts.UI
 {
     public class UiManager : MonoBehaviour {
 
@@ -54,10 +55,10 @@ namespace UI
             _gameManager.CurrentGame.SetGameType(isSingle ? Game.GameType.Single : Game.GameType.TwoPlayers);
             _selectPlayModePanel.SetActive(false);
             
-            _gameManager.CurrentGame.Player1Score.Subscribe(score => _player1ScoreInfo.text = "" + score);           
+            _gameManager.CurrentGame.Player1Score.Subscribe(score => _player1ScoreInfo.text = score.ToString());           
             _player2ScoreInfo.gameObject.SetActive(!isSingle);
             if (!isSingle)
-            _gameManager.CurrentGame.Player2Score.Subscribe(score => _player2ScoreInfo.text = "" + score);
+            _gameManager.CurrentGame.Player2Score.Subscribe(score => _player2ScoreInfo.text = score.ToString());
             _gameUiPanel.SetActive(true);
             
             _gameManager.StartNewGame(_gameManager.CurrentGame);

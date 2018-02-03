@@ -1,6 +1,6 @@
-﻿using UnityEngine;
+﻿using ResourcesControl;
 
-namespace ResourcesControl
+namespace Assets.Scripts.ResourcesControl
 {
     public class SynergyStyle : Style
     {

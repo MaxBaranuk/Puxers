@@ -16,10 +16,6 @@ namespace UniRx.Examples
                 .Select(_ => Input.mousePosition)
                 .RepeatUntilDestroy(this)
                 .Subscribe(x => Debug.Log(x), ()=> Debug.Log("!!!" + "complete"));
-            
-            this.OnMouseUpAsObservable()
-                .Select(_ => Input.mousePosition)
-                .Subscribe(x => Debug.Log("Mouse Up "+x));
         }
     }
 }

@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using UnityEngine;
+using GameLogic;
 using ResourcesControl;
 using ScriptsOld;
 using Smooth.Slinq;
 using UniRx;
+using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-namespace GameLogic
+namespace Assets.Scripts.GameLogic
 {
     public class GameManager : MonoBehaviour
     {
@@ -23,7 +24,7 @@ namespace GameLogic
         [SerializeField] private Transform _ballsHolder;
         [SerializeField] private Text _comboText;
         
-        public BackgroundController bContr;
+        public BackgroundController BContr;
        
         private readonly Queue<Ball> _ballsPool = new Queue<Ball>();
         private ResourceHolder _resourcesHolder;
@@ -50,7 +51,7 @@ namespace GameLogic
 
         public static async void ShowCombo(int value)
         {
-            Instanse._comboText.text = "x" + value;
+            Instanse._comboText.text = value.ToString();
             Instanse._comboText.gameObject.SetActive(true);
             await Task.Delay(TimeSpan.FromSeconds(2));
             Instanse._comboText.gameObject.SetActive(false);
@@ -81,8 +82,8 @@ namespace GameLogic
 
         private Vector2 RandomizePosition(Ball ball)
         {
-            var range = new Vector2(bContr.BackgroundSize.x - ball.BallSize.x * ball.transform.localScale.x / 2,
-                bContr.BackgroundSize.y - ball.BallSize.x * ball.transform.localScale.y / 2);
+            var range = new Vector2(BContr.BackgroundSize.x - ball.BallSize.x * ball.transform.localScale.x / 2,
+                BContr.BackgroundSize.y - ball.BallSize.x * ball.transform.localScale.y / 2);
             Vector2 pos;
             do
             {

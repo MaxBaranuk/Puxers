@@ -310,7 +310,7 @@ namespace UniRx
                 ctr = cancellationToken.Register(() =>
                 {
                     disposable.Dispose();
-                    tcs.TrySetCanceled();
+                    tcs.TrySetCanceled(cancellationToken);
                 });
             }
 
