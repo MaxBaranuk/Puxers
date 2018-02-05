@@ -1,42 +1,38 @@
-﻿using System.Threading.Tasks;
+﻿using System.Globalization;
+using System.Threading.Tasks;
 using ResourcesControl;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
 
-namespace Assets.Scripts.GameLogic
+namespace GameLogic
 {
     public class Ball : MonoBehaviour
     {
        
-        private Vector3 _strartTouchPosition;
+        private Vector3 _startTouchPosition;
         public static Vector3 Size;
         public ReactiveProperty<int> Value = new ReactiveProperty<int>(1);
         private TextMesh _valueInfo;
 
         private Rigidbody2D _rigidbody;
-        private Collider2D _collider;
+        public Collider2D Collider;
         private SpriteRenderer _image;
         private int _moveKey;
-        private bool _isActive;
-        private bool _isOverlap;
-              
+
+        private Vector3 _previousPosition;
+        private Vector3 _previousVelosity;
+
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody2D>();
-            _collider = GetComponent<Collider2D>();
+            Collider = GetComponent<Collider2D>();
             _image = GetComponent<SpriteRenderer>();
             _valueInfo = GetComponentInChildren<TextMesh>();
-
-            GameManager.ActivateBalls.Subscribe(_ =>
-            {
-                if(!_isActive)
-                    Active();
-            });
             
             Value.Subscribe(i =>
             {
-                _valueInfo.text = i.ToString();
+                _valueInfo.text = Mathf.Pow(2, i).ToString(CultureInfo.InvariantCulture);
                 _image.sprite = ResourceHolder.Instanse.GetBallImage(i);
                 var combo = ++GameManager.ComboHolder[_moveKey];
                 if(combo > 1 && _moveKey != 0)
@@ -46,7 +42,7 @@ namespace Assets.Scripts.GameLogic
             this.OnMouseDownAsObservable()
                 .SelectMany(_ =>
                 {
-                    _strartTouchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    _startTouchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                     return gameObject.UpdateAsObservable();
                 })
                 .TakeUntil(gameObject.OnMouseUpAsObservable())
@@ -56,54 +52,43 @@ namespace Assets.Scripts.GameLogic
             
             this.OnMouseUpAsObservable()
                 .Select(_ => Camera.main.ScreenToWorldPoint(Input.mousePosition))
-                .Subscribe(x =>
+                .Subscribe(async x =>
                 {
-                    var dir = x - _strartTouchPosition;
+                    var dir = x - _startTouchPosition;
                     float force = dir.magnitude;
                     if (force > Size.x * 2) dir = dir * Size.x * 2 / force;
                     GetComponent<Rigidbody2D>().AddForce(- dir * 15, ForceMode2D.Impulse);
                     _moveKey = ++GameManager.CurrentThrow;
                     GameManager.ComboHolder.Add(_moveKey, 0);
-                    GameManager.Instanse.AddBalls(2, 3000);
+                    await NextStep();
                 });
 
-            this.OnTriggerEnter2DAsObservable()
-                .Subscribe(c =>
-                {
-                    _collider.isTrigger = false;
-                    Collide(c);
-
-                });
-            
-            this.OnCollisionExit2DAsObservable()
+            this.OnCollisionEnter2DAsObservable()
                 .Subscribe(d =>
                 {
-                    _collider.isTrigger = true;
+                    Collide(d.collider);
                 });
         }
 
-        private void OnEnable()
+        private async Task NextStep()
         {
-            Value.Value = Random.Range(1, 6);
-            _isActive = false;
+            await GameManager.Instanse.GenerateHoldersWithDelay(2, 3000); 
+            GameManager.Instanse.CurrentGame.ChangePlayer();
         }
 
-        private void Active()
+        private void FixedUpdate()
         {
-            _isActive = true;
-            _image.color = Color.white;
+            _previousPosition = transform.position;
+            _previousVelosity = _rigidbody.velocity;
         }
 
         private void OnDisable()
         {
-            _collider.isTrigger = true;
-            _image.color = new Color(1, 1, 1, 0.5f);
-            GameManager.BallsPool.Enqueue(this);
+            GameManager.Instanse?.RemoveBall(this);
         }
 
         private void Collide(Collider2D other)
         {
-            Debug.Log("Collide");
             var ball = other.gameObject.GetComponent<Ball>();
             if(ball == null)
                 return;
@@ -114,17 +99,23 @@ namespace Assets.Scripts.GameLogic
                 return;
             }       
 
-            if (ball._rigidbody.velocity.magnitude > _rigidbody.velocity.magnitude)
+            if (ball._previousVelosity.magnitude > _previousVelosity.magnitude)
             {
                 ball.Value.Value++;
+                ball.transform.position = ball._previousPosition;
+                ball._rigidbody.velocity = ball._previousVelosity;
                 gameObject.SetActive(false);
 
             }
             else
             {
                 Value.Value++;
+                transform.position = _previousPosition;
+                _rigidbody.velocity = _previousVelosity;
                 ball.gameObject.SetActive(false);
             }
+
+            GameManager.Instanse.CurrentGame.CurrentPlayer.Value.Score.Value += (int) Mathf.Pow(2, Value.Value);
         }
     }
 }

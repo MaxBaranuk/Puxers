@@ -1,5 +1,4 @@
-﻿using Assets.Scripts.GameLogic;
-using GameLogic;
+﻿using GameLogic;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,6 +17,9 @@ namespace Assets.Scripts.UI
         [SerializeField] private GameObject _gameUiPanel;      
         [SerializeField] private GameManager _gameManager;
 
+        public Text Player1Score => _player1ScoreInfo;
+        public Text Player2Score => _player2ScoreInfo;
+        
         private void Start()
         {
             GameManager.Settings.BestScore.Subscribe(i => _bestScoreInfo.text = "" + GameManager.Settings.BestScore);
@@ -53,11 +55,9 @@ namespace Assets.Scripts.UI
         {
             _gameManager.CurrentGame.SetGameType(isSingle ? Game.GameType.Single : Game.GameType.TwoPlayers);
             _selectPlayModePanel.SetActive(false);
-            
-            _gameManager.CurrentGame.Player1Score.Subscribe(score => _player1ScoreInfo.text = score.ToString());           
+                
             _player2ScoreInfo.gameObject.SetActive(!isSingle);
             if (!isSingle)
-            _gameManager.CurrentGame.Player2Score.Subscribe(score => _player2ScoreInfo.text = score.ToString());
             _gameUiPanel.SetActive(true);
             
             _gameManager.StartNewGame(_gameManager.CurrentGame);

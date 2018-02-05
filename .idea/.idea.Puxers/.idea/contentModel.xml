@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CollisionTest.cs" t="Include" />
         <e p="Flare_Effect_V1" t="Include">
           <e p="Documentation" t="Include">
             <e p="01 - Package description.txt" t="Include" />
@@ -313,10 +314,12 @@
         <e p="Scripts" t="Include">
           <e p="GameLogic" t="Include">
             <e p="Ball.cs" t="Include" />
+            <e p="BallHolder.cs" t="Include" />
             <e p="Constants.cs" t="Include" />
             <e p="Game.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="GameSettings.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
             <e p="SaveLoad.cs" t="Include" />
           </e>
           <e p="ResourcesControl" t="Include">
