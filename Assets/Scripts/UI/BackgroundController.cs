@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 
-namespace ScriptsOld
+namespace UI
 {
 	public class BackgroundController : MonoBehaviour
 	{
 		[SerializeField] private SpriteRenderer _playArea;
-		public Vector3 BackgroundSize => _extends;
-		public Vector3 _extends;
-		void Awake () {
+		public Vector3 BackgroundSize => Extends;
+		public Vector3 Extends;
+
+		private void Awake () {
 			Resize();
 		}
 
@@ -22,19 +23,18 @@ namespace ScriptsOld
 			var width = sr.sprite.bounds.size.x;
 			var height = sr.sprite.bounds.size.y;
 
-			float worldScreenHeight = Camera.main.orthographicSize * 2f;
-			float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
+			var worldScreenHeight = Camera.main.orthographicSize * 2f;
+			var worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
 
-			Vector3 xWidth = transform.localScale;
+			var xWidth = transform.localScale;
 			xWidth.x = worldScreenWidth / width;
 			transform.localScale = xWidth;
-			Vector3 yHeight = transform.localScale;
+			var yHeight = transform.localScale;
 			yHeight.y = worldScreenHeight / height;
 			transform.localScale = yHeight;
-			_extends = new Vector3(_playArea.bounds.extents.x,
+			Extends = new Vector3(_playArea.bounds.extents.x,
 				_playArea.bounds.extents.y,
 				_playArea.bounds.extents.z);
 		}
-
 	}
 }

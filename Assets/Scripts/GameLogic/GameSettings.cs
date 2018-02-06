@@ -7,9 +7,7 @@ namespace GameLogic
    public class GameSettings {
       public readonly ReactiveProperty<Style.Type> CurrentStyle = new ReactiveProperty<Style.Type>();
       public readonly IntReactiveProperty BestScore = new IntReactiveProperty();
-//      public int BestScore;
       public readonly BoolReactiveProperty MusicOn = new BoolReactiveProperty();
-
       private readonly BoolReactiveProperty _soundsOn = new BoolReactiveProperty();
       
 
@@ -22,9 +20,5 @@ namespace GameLogic
          settings._soundsOn.Value = true;
          return settings;
       }
-
-//
-//      public static GameRecord Record = new GameRecord();
-//      public static Game CurrentGame;
    }
 }

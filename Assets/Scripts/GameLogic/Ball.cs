@@ -31,12 +31,20 @@ namespace GameLogic
             _valueInfo = GetComponentInChildren<TextMesh>();
             
             Value.Subscribe(i =>
-            {
-                _valueInfo.text = Mathf.Pow(2, i).ToString(CultureInfo.InvariantCulture);
-                _image.sprite = ResourceHolder.Instanse.GetBallImage(i);
+            {              
                 var combo = ++GameManager.ComboHolder[_moveKey];
                 if(combo > 1 && _moveKey != 0)
                     GameManager.ShowCombo(combo);
+
+                if (i > 14)
+                {
+                    gameObject.SetActive(false);
+                    return;
+                }
+
+                
+                _valueInfo.text = Mathf.Pow(2, i).ToString(CultureInfo.InvariantCulture);
+                _image.sprite = ResourceHolder.Instanse.GetBallImage(i);
             });
             
             this.OnMouseDownAsObservable()
@@ -70,6 +78,16 @@ namespace GameLogic
                 });
         }
 
+        public void IncreaseValue(int value)
+        {
+            Value.Value += value;
+        }
+
+        public void SetValue(int value)
+        {
+            Value.Value = value;
+        }
+        
         private async Task NextStep()
         {
             await GameManager.Instanse.GenerateHoldersWithDelay(2, 3000); 

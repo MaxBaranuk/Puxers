@@ -7,7 +7,7 @@ namespace GameLogic
     {
         public enum GameType { Single, TwoPlayers };
 
-        private GameType _currentGameType;
+        public GameType CurrentGameType;
         private readonly Player _player1 = new Player(Type.One);
         private readonly Player _player2 = new Player(Type.Two);
         public ReactiveProperty<Player> CurrentPlayer;
@@ -19,28 +19,21 @@ namespace GameLogic
             _player2.Score.Subscribe(i => GameManager.Instanse.UiManager.Player2Score.text = i.ToString());
             CurrentPlayer.Subscribe(player =>
             {
- //               GameManager.Instanse.UiManager.Player1Score.
                 player.Order.Match()
                     .With(Type.One).Do(_ => { })
                     .With(Type.Two).Do(_ => { })
-                    .Exec();
-                
+                    .Exec();                
             });
         }
         
         public Game(GameType type)
         {
-            _currentGameType = type;      
-        }
-
-        public void SetGameType(GameType type)
-        {
-            _currentGameType = type;
+            CurrentGameType = type;      
         }
         
         public void ChangePlayer()
         {
-            if (_currentGameType == GameType.Single)
+            if (CurrentGameType == GameType.Single)
                 return;
 
             CurrentPlayer.Value = CurrentPlayer.Value == _player1 

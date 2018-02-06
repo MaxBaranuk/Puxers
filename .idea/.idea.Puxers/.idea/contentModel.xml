@@ -315,6 +315,7 @@
           <e p="GameLogic" t="Include">
             <e p="Ball.cs" t="Include" />
             <e p="BallHolder.cs" t="Include" />
+            <e p="Bonus.cs" t="Include" />
             <e p="Constants.cs" t="Include" />
             <e p="Game.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
@@ -338,7 +339,6 @@
         <e p="ScriptsOld" t="Include">
           <e p="Ball.cs" t="Include" />
           <e p="BallAnimation.cs" t="Include" />
-          <e p="Bonus.cs" t="Include" />
           <e p="ButtonAnimation.cs" t="Include" />
           <e p="CameraScaler.cs" t="Include" />
           <e p="Effect.cs" t="Include" />

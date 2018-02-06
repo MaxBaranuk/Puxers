@@ -5,7 +5,7 @@ namespace GameLogic
     public class Player
     {
         public ReactiveProperty<int> Score;
-        public Type Order;
+        public readonly Type Order;
 
         public Player(Type order)
         {

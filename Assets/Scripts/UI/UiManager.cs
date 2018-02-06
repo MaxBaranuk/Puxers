@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Game = GameLogic.Game;
 
-namespace Assets.Scripts.UI
+namespace UI
 {
     public class UiManager : MonoBehaviour {
 
@@ -24,16 +24,12 @@ namespace Assets.Scripts.UI
         {
             GameManager.Settings.BestScore.Subscribe(i => _bestScoreInfo.text = "" + GameManager.Settings.BestScore);
         }
-//        private void Update () {
-//            if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
-//        }
 
         public void Play()
         {
             _startPanel.SetActive(false);
             _selectPlayModePanel.SetActive(true);
-            _gameManager.CurrentGame = new Game();
-            
+            _gameManager.CurrentGame = new Game();            
         }
 
         public void GoToDeveloperPage()
@@ -53,11 +49,10 @@ namespace Assets.Scripts.UI
         
         public void StartGame(bool isSingle)
         {
-            _gameManager.CurrentGame.SetGameType(isSingle ? Game.GameType.Single : Game.GameType.TwoPlayers);
+            _gameManager.CurrentGame.CurrentGameType = isSingle ? Game.GameType.Single : Game.GameType.TwoPlayers;
             _selectPlayModePanel.SetActive(false);
                 
             _player2ScoreInfo.gameObject.SetActive(!isSingle);
-            if (!isSingle)
             _gameUiPanel.SetActive(true);
             
             _gameManager.StartNewGame(_gameManager.CurrentGame);
