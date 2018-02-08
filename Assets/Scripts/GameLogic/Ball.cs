@@ -1,6 +1,7 @@
 ﻿using System.Globalization;
 using System.Threading.Tasks;
 using ResourcesControl;
+using Smooth.Foundations.PatternMatching.GeneralMatcher;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
@@ -36,17 +37,19 @@ namespace GameLogic
                 if(combo > 1 && _moveKey != 0)
                     GameManager.ShowCombo(combo);
 
+                GameManager.Instanse.CurrentGame.CurrentPlayer.Value.Score.Value 
+                    += (int) Mathf.Pow(2, Value.Value) * GameManager.ComboHolder[_moveKey];
+                
                 if (i > 14)
                 {
                     gameObject.SetActive(false);
                     return;
                 }
 
-                
                 _valueInfo.text = Mathf.Pow(2, i).ToString(CultureInfo.InvariantCulture);
                 _image.sprite = ResourceHolder.Instanse.GetBallImage(i);
             });
-            
+#if UNITY_EDITOR     
             this.OnMouseDownAsObservable()
                 .SelectMany(_ =>
                 {
@@ -63,14 +66,9 @@ namespace GameLogic
                 .Subscribe(async x =>
                 {
                     var dir = x - _startTouchPosition;
-                    float force = dir.magnitude;
-                    if (force > Size.x * 2) dir = dir * Size.x * 2 / force;
-                    GetComponent<Rigidbody2D>().AddForce(- dir * 15, ForceMode2D.Impulse);
-                    _moveKey = ++GameManager.CurrentThrow;
-                    GameManager.ComboHolder.Add(_moveKey, 0);
-                    await NextStep();
+                    Throw(dir);
                 });
-
+#endif
             this.OnCollisionEnter2DAsObservable()
                 .Subscribe(d =>
                 {
@@ -87,7 +85,31 @@ namespace GameLogic
         {
             Value.Value = value;
         }
-        
+
+        public async void Throw(Vector3 dir)
+        {
+            float force = dir.magnitude;
+            if (force > Size.x * 2) dir = dir * Size.x * 2 / force;
+              
+            _rigidbody.AddForce(- dir * 20, ForceMode2D.Impulse);
+            _rigidbody.drag = 0.2f;
+            _moveKey = ++GameManager.CurrentThrow;
+            GameManager.ComboHolder.Add(_moveKey, 0);
+
+            await Task.Delay(250);
+                    
+            _rigidbody.drag = 3f;
+             
+            while (_rigidbody.drag > .9f)
+            {
+                _rigidbody.drag -= 0.2f;
+                await Task.Delay(50);
+            }
+                    
+            _rigidbody.drag = 0.9f;
+            await NextStep();
+        }
+
         private async Task NextStep()
         {
             await GameManager.Instanse.GenerateHoldersWithDelay(2, 3000); 
@@ -133,7 +155,7 @@ namespace GameLogic
                 ball.gameObject.SetActive(false);
             }
 
-            GameManager.Instanse.CurrentGame.CurrentPlayer.Value.Score.Value += (int) Mathf.Pow(2, Value.Value);
+           
         }
     }
 }

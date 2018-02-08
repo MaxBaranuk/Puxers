@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -41,7 +42,7 @@ namespace GameLogic
         private readonly List<BallHolder> _holdersOnScene = new List<BallHolder>();
         private Bonus _bonus;
         private Image [] _lifeImages;
-        private CancellationTokenSource _source;
+        private bool _isGameRunning;
        
         private readonly IntReactiveProperty _lifes = new IntReactiveProperty();
         private AudioSource _mainMusic;       
@@ -85,9 +86,8 @@ namespace GameLogic
             ComboHolder = new Dictionary<int, int> {{CurrentThrow, 0}};
             _ballsOnScene.ForEach(RemoveBall);
             await AddBalls(6);
-            _source = new CancellationTokenSource();
-            var token = _source.Token;
-            SpawnBonus(token);
+            _isGameRunning = true;
+            StartCoroutine(SpawnBonus());
         }
 
         public static async void ShowCombo(int value)
@@ -149,12 +149,12 @@ namespace GameLogic
             _lifes.Value--;
         }
 
-        private async void SpawnBonus(CancellationToken token)
+        private IEnumerator SpawnBonus()
         {
-            while (!token.IsCancellationRequested)
+            while (_isGameRunning)
             {
-                var delay = Random.Range(20000, 60000);
-                await Task.Delay(delay, token);
+                var delay = Random.Range(20, 60);
+                yield return new WaitForSeconds(delay);
                 _bonus.transform.position = RandomizePosition();
                 _bonus.gameObject.SetActive(true);
             }
@@ -200,8 +200,9 @@ namespace GameLogic
                     .With(Game.GameType.TwoPlayers).Return($"Player {CurrentGame.CurrentPlayer.Value.Order}" +
                                                            "LOSE")
                     .Result();
-            
-            _source.Cancel();
+
+            _isGameRunning = false;
+            StopAllCoroutines();
             Settings.BestScore.Value = CurrentGame.CurrentPlayer.Value.Score.Value;
             SaveLoad.SaveGame(Settings.BestScore.Value);
             await Task.Delay(2000);

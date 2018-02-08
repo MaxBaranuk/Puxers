@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Globalization;
+using System.Threading.Tasks;
 using Smooth.Foundations.PatternMatching.GeneralMatcher;
 using UniRx;
 using UniRx.Triggers;
@@ -40,7 +41,7 @@ namespace GameLogic
             _type = Random.value > 0.5f
                 ? Type.Multiple
                 : Type.Same;
-            _value = Random.Range(1, 5);
+            _value = Random.Range(2, 5);
             
             _type.Match()
                 .With(Type.Multiple).Do(_ =>
@@ -51,10 +52,10 @@ namespace GameLogic
                 .With(Type.Same).Do(_ =>
                 {
                     _image.sprite = _sameImage;
-                    _text.text = "" + _value;
+                    _text.text = Mathf.Pow(2, _value).ToString(CultureInfo.InvariantCulture);
                 })
                 .Exec();
-            await Task.Delay(4);
+            await Task.Delay(4000);
             gameObject.SetActive(false);
         }
     }
