@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Threading;
 using System.Threading.Tasks;
 using Smooth.Foundations.PatternMatching.GeneralMatcher;
 using Smooth.Slinq;
@@ -35,14 +34,15 @@ namespace GameLogic
         
         public static int CurrentThrow = 1;
         public static Dictionary<int, int> ComboHolder = new Dictionary<int, int>();
- 
+        public bool IsGameRunning;
+        
         private readonly Queue<Ball> _ballsPool = new Queue<Ball>();
         private readonly Queue<BallHolder> _ballHoldersPool = new Queue<BallHolder>();
         private readonly List<Ball> _ballsOnScene = new List<Ball>();
         private readonly List<BallHolder> _holdersOnScene = new List<BallHolder>();
         private Bonus _bonus;
         private Image [] _lifeImages;
-        private bool _isGameRunning;
+        
        
         private readonly IntReactiveProperty _lifes = new IntReactiveProperty();
         private AudioSource _mainMusic;       
@@ -84,9 +84,9 @@ namespace GameLogic
             CurrentThrow = 0;
             _lifes.Value = _ballsOnScene.Count;
             ComboHolder = new Dictionary<int, int> {{CurrentThrow, 0}};
-            _ballsOnScene.ForEach(RemoveBall);
+            
             await AddBalls(6);
-            _isGameRunning = true;
+            IsGameRunning = true;
             StartCoroutine(SpawnBonus());
         }
 
@@ -151,12 +151,15 @@ namespace GameLogic
 
         private IEnumerator SpawnBonus()
         {
-            while (_isGameRunning)
-            {
-                var delay = Random.Range(20, 60);
-                yield return new WaitForSeconds(delay);
+            var delay = Random.Range(20, 60);
+            yield return new WaitForSeconds(delay);
+            
+            while (IsGameRunning)
+            {     
                 _bonus.transform.position = RandomizePosition();
                 _bonus.gameObject.SetActive(true);
+                delay = Random.Range(20, 60);
+                yield return new WaitForSeconds(delay);
             }
         }
 
@@ -168,7 +171,7 @@ namespace GameLogic
         public void SetSameValueToAll(int value)
         {
             _ballsOnScene.Slinq()
-                .ForEach(ball => ball.SetValue(value));
+                .ForEach((ball, val) => ball.SetValue(val), value);
         }
 
         private void InitGame()
@@ -193,6 +196,7 @@ namespace GameLogic
         
         private async void Lose()
         {
+            IsGameRunning = false;
             _losePanel.SetActive(true);
             _losePanel.GetComponentInChildren<Text>().text =
                 CurrentGame.CurrentGameType.MatchTo<Game.GameType, string>()
@@ -200,8 +204,12 @@ namespace GameLogic
                     .With(Game.GameType.TwoPlayers).Return($"Player {CurrentGame.CurrentPlayer.Value.Order}" +
                                                            "LOSE")
                     .Result();
-
-            _isGameRunning = false;
+            
+            var balls = _ballsOnScene.ToArray();
+            foreach (var t in balls)
+                t.gameObject.SetActive(false);
+            ComboHolder.Clear();
+            
             StopAllCoroutines();
             Settings.BestScore.Value = CurrentGame.CurrentPlayer.Value.Score.Value;
             SaveLoad.SaveGame(Settings.BestScore.Value);
@@ -210,13 +218,14 @@ namespace GameLogic
             _uiManager.OpenStartPanel();
         }
 
-        private Vector2 RandomizePosition()
+        private Vector3 RandomizePosition()
         {
             var count = 0;
-            Vector2 pos;
+            Vector3 pos;
             do
             {
-                pos = new Vector2(Random.Range( -_spawnRange.x, _spawnRange.x), Random.Range(-_spawnRange.y, _spawnRange.y));
+                pos = new Vector3(Random.Range( -_spawnRange.x, _spawnRange.x), 
+                    Random.Range(-_spawnRange.y, _spawnRange.y), -0.04f);
                 count++;
             } while (!IsOnEmptyPlace(pos) || count > 10);
             if (count > 10) Debug.Log("Randomize error");

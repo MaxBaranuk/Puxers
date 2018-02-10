@@ -13,7 +13,7 @@ namespace UI
         [SerializeField] private Text _player2ScoreInfo;
         [SerializeField] private GameObject _startPanel;
         [SerializeField] private GameObject _selectPlayModePanel;
-        [SerializeField] private GameObject _mainMenuPanel;
+//        [SerializeField] private GameObject _mainMenuPanel;
         [SerializeField] private GameObject _gameUiPanel;  
         [SerializeField] private GameObject _settingsPanel;
         [SerializeField] private GameManager _gameManager;
@@ -38,10 +38,10 @@ namespace UI
             Application.OpenURL(Constants.DeveloperPageLink);
         }
         
-        public void OpenMainMenu()
-        {
-            _mainMenuPanel.SetActive(true);
-        }
+//        public void OpenMainMenu()
+//        {
+//            _mainMenuPanel.SetActive(true);
+//        }
 
         public void OpenSettings()
         {
@@ -56,6 +56,16 @@ namespace UI
         public void OpenStartPanel()
         {
             _startPanel.SetActive(true);
+        }
+
+        public void MusicOn(bool isOn)
+        {
+            GameManager.Settings.MusicOn.Value = isOn;
+        }
+
+        public void SoundOn(bool isOn)
+        {
+            GameManager.Settings.SoundsOn.Value = isOn;
         }
         
         public void StartGame(bool isSingle)

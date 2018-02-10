@@ -14,6 +14,9 @@ namespace UI
 #if UNITY_ANDROID
         private void Update()
         {
+            if(!GameManager.Instanse.IsGameRunning)
+                return;
+            
             var input = Input.GetTouch(0);
             input.phase.Match()
                 .With(TouchPhase.Began).Do(_ =>

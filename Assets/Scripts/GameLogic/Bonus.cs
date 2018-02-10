@@ -10,8 +10,8 @@ namespace GameLogic
 {
     public class Bonus : MonoBehaviour 
     {
-        [SerializeField] private Sprite _sameImage;
-        [SerializeField] private Sprite _multipleImage;
+        [SerializeField] private GameObject _sameEffect;
+        [SerializeField] private GameObject _multipleEffect;
         
         private enum Type {Multiple, Same };
         private int _value;
@@ -46,12 +46,14 @@ namespace GameLogic
             _type.Match()
                 .With(Type.Multiple).Do(_ =>
                 {
-                    _image.sprite = _multipleImage;
+                    _multipleEffect.SetActive(true);
+                    _sameEffect.SetActive(false);
                     _text.text = "x" + _value;
                 })
                 .With(Type.Same).Do(_ =>
                 {
-                    _image.sprite = _sameImage;
+                    _multipleEffect.SetActive(false);
+                   _sameEffect.SetActive(true);
                     _text.text = Mathf.Pow(2, _value).ToString(CultureInfo.InvariantCulture);
                 })
                 .Exec();

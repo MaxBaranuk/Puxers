@@ -1,7 +1,6 @@
 ﻿using System.Globalization;
 using System.Threading.Tasks;
 using ResourcesControl;
-using Smooth.Foundations.PatternMatching.GeneralMatcher;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
@@ -10,7 +9,7 @@ namespace GameLogic
 {
     public class Ball : MonoBehaviour
     {
-       
+        [SerializeField] private GameObject _effect;
         private Vector3 _startTouchPosition;
         public static Vector3 Size;
         public ReactiveProperty<int> Value = new ReactiveProperty<int>(1);
@@ -19,6 +18,7 @@ namespace GameLogic
         private Rigidbody2D _rigidbody;
         public Collider2D Collider;
         private SpriteRenderer _image;
+        private AudioSource _audioSource;
         private int _moveKey;
 
         private Vector3 _previousPosition;
@@ -30,15 +30,22 @@ namespace GameLogic
             Collider = GetComponent<Collider2D>();
             _image = GetComponent<SpriteRenderer>();
             _valueInfo = GetComponentInChildren<TextMesh>();
+            _audioSource = GetComponent<AudioSource>();
+            
+            GameManager.Settings.SoundsOn.Subscribe(b => _audioSource.mute = !b);
             
             Value.Subscribe(i =>
             {              
+//                int combo;
+//                if(!GameManager.ComboHolder.TryGetValue(_moveKey, out combo))
+//                    combo = 1;
                 var combo = ++GameManager.ComboHolder[_moveKey];
+                
                 if(combo > 1 && _moveKey != 0)
                     GameManager.ShowCombo(combo);
 
                 GameManager.Instanse.CurrentGame.CurrentPlayer.Value.Score.Value 
-                    += (int) Mathf.Pow(2, Value.Value) * GameManager.ComboHolder[_moveKey];
+                    += (int) Mathf.Pow(2, Value.Value) * combo;
                 
                 if (i > 14)
                 {
@@ -63,7 +70,7 @@ namespace GameLogic
             
             this.OnMouseUpAsObservable()
                 .Select(_ => Camera.main.ScreenToWorldPoint(Input.mousePosition))
-                .Subscribe(async x =>
+                .Subscribe(x =>
                 {
                     var dir = x - _startTouchPosition;
                     Throw(dir);
@@ -86,11 +93,12 @@ namespace GameLogic
             Value.Value = value;
         }
 
-        public async void Throw(Vector3 dir)
+        private async void Throw(Vector3 dir)
         {
             float force = dir.magnitude;
             if (force > Size.x * 2) dir = dir * Size.x * 2 / force;
-              
+            _effect.SetActive(true);
+            
             _rigidbody.AddForce(- dir * 20, ForceMode2D.Impulse);
             _rigidbody.drag = 0.2f;
             _moveKey = ++GameManager.CurrentThrow;
@@ -105,9 +113,10 @@ namespace GameLogic
                 _rigidbody.drag -= 0.2f;
                 await Task.Delay(50);
             }
-                    
+                
             _rigidbody.drag = 0.9f;
             await NextStep();
+            _effect.SetActive(false);   
         }
 
         private async Task NextStep()
@@ -130,6 +139,7 @@ namespace GameLogic
         private void Collide(Collider2D other)
         {
             var ball = other.gameObject.GetComponent<Ball>();
+            _audioSource.Play();
             if(ball == null)
                 return;
 

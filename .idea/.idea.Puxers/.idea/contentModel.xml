@@ -9,11 +9,6 @@
       <e p="Assets" t="Include">
         <e p="CollisionTest.cs" t="Include" />
         <e p="Flare_Effect_V1" t="Include">
-          <e p="Documentation" t="Include">
-            <e p="01 - Package description.txt" t="Include" />
-            <e p="02 - How to create an explosion.txt" t="Include" />
-            <e p="03 - HTSpriteSheet.cs parameters.txt" t="Include" />
-          </e>
           <e p="Plugins" t="Include">
             <e p="Editor" t="Include">
               <e p="HTSpriteSheetEditor.cs" t="Include" />
@@ -23,6 +18,15 @@
         </e>
         <e p="KY_magicEffectsFree" t="Include">
           <e p="ReadMe.txt" t="Include" />
+        </e>
+        <e p="Mirza Beig" t="Include">
+          <e p="Particle Systems" t="Include">
+            <e p="_Common" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ParticleSystems.cs" t="Include" />
+              </e>
+            </e>
+          </e>
         </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
