@@ -133,13 +133,13 @@ namespace GameLogic
             await Task.Delay(delay);
             _holdersOnScene.ForEach(ball => ball.Activate());
             _holdersOnScene.Clear();
-            Slinqable.Repeat(0, count).ForEach(_ =>
+            Slinqable.Repeat(0, count).ForEach((_, holders) =>
             {              
                 var ball = _ballHoldersPool.Dequeue();
-                _holdersOnScene.Add(ball);              
+                holders.Add(ball);              
                 ball.transform.localPosition = RandomizePosition();
                 ball.gameObject.SetActive(true);
-            });       
+            }, _holdersOnScene);       
         }
         
         public void RemoveBall(Ball ball)
@@ -151,14 +151,14 @@ namespace GameLogic
 
         private IEnumerator SpawnBonus()
         {
-            var delay = Random.Range(20, 60);
+            var delay = Random.Range(10, 50);
             yield return new WaitForSeconds(delay);
             
             while (IsGameRunning)
             {     
                 _bonus.transform.position = RandomizePosition();
                 _bonus.gameObject.SetActive(true);
-                delay = Random.Range(20, 60);
+                delay = Random.Range(10, 50);
                 yield return new WaitForSeconds(delay);
             }
         }

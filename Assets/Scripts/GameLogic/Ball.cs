@@ -35,18 +35,7 @@ namespace GameLogic
             GameManager.Settings.SoundsOn.Subscribe(b => _audioSource.mute = !b);
             
             Value.Subscribe(i =>
-            {              
-//                int combo;
-//                if(!GameManager.ComboHolder.TryGetValue(_moveKey, out combo))
-//                    combo = 1;
-                var combo = ++GameManager.ComboHolder[_moveKey];
-                
-                if(combo > 1 && _moveKey != 0)
-                    GameManager.ShowCombo(combo);
-
-                GameManager.Instanse.CurrentGame.CurrentPlayer.Value.Score.Value 
-                    += (int) Mathf.Pow(2, Value.Value) * combo;
-                
+            {                          
                 if (i > 14)
                 {
                     gameObject.SetActive(false);
@@ -85,6 +74,13 @@ namespace GameLogic
 
         public void IncreaseValue(int value)
         {
+            var combo = ++GameManager.ComboHolder[_moveKey];
+                
+            if(combo > 1 && _moveKey != 0)
+                GameManager.ShowCombo(combo);
+
+            GameManager.Instanse.CurrentGame.CurrentPlayer.Value.Score.Value 
+                += (int) Mathf.Pow(2, Value.Value) * combo;
             Value.Value += value;
         }
 
@@ -95,7 +91,7 @@ namespace GameLogic
 
         private async void Throw(Vector3 dir)
         {
-            float force = dir.magnitude;
+            var force = dir.magnitude;
             if (force > Size.x * 2) dir = dir * Size.x * 2 / force;
             _effect.SetActive(true);
             
@@ -151,7 +147,7 @@ namespace GameLogic
 
             if (ball._previousVelosity.magnitude > _previousVelosity.magnitude)
             {
-                ball.Value.Value++;
+                ball.IncreaseValue(1);
                 ball.transform.position = ball._previousPosition;
                 ball._rigidbody.velocity = ball._previousVelosity;
                 gameObject.SetActive(false);
@@ -159,7 +155,7 @@ namespace GameLogic
             }
             else
             {
-                Value.Value++;
+                IncreaseValue(1);
                 transform.position = _previousPosition;
                 _rigidbody.velocity = _previousVelosity;
                 ball.gameObject.SetActive(false);
