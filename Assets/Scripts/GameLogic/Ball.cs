@@ -45,7 +45,7 @@ namespace GameLogic
                 _valueInfo.text = Mathf.Pow(2, i).ToString(CultureInfo.InvariantCulture);
                 _image.sprite = ResourceHolder.Instanse.GetBallImage(i);
             });
-#if UNITY_EDITOR     
+#if !UNITY_ANDROID
             this.OnMouseDownAsObservable()
                 .SelectMany(_ =>
                 {
@@ -89,7 +89,7 @@ namespace GameLogic
             Value.Value = value;
         }
 
-        private async void Throw(Vector3 dir)
+        public async void Throw(Vector3 dir)
         {
             var force = dir.magnitude;
             if (force > Size.x * 2) dir = dir * Size.x * 2 / force;

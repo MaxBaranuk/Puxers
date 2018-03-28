@@ -68,7 +68,7 @@ namespace GameLogic
                 _backgroundController.BackgroundSize.y - Ball.Size.y * _ballPrefab.transform.localScale.y / 2);
             InitGame();
             _lifeImages = _lifesHolder.GetComponentsInChildren<Image>();
-            _lifes.Subscribe(i =>
+            _lifes?.Subscribe(i =>
             {
                 _lifeImages.Slinq()
                     .ForEach((image, lifes) => 
@@ -76,6 +76,11 @@ namespace GameLogic
                         ? _activeLife
                         : _inactiveLife, i);
             });
+        }
+
+        private void OnDisable()
+        {
+            _lifes.Dispose();
         }
 
         public async void StartNewGame(Game game)
@@ -176,20 +181,20 @@ namespace GameLogic
 
         private void InitGame()
         {
-            Slinqable.Repeat(0,12).ForEach(_ =>
+            Slinqable.Repeat(0,12).ForEach((_, prefabAndHolder) =>
             {
-                var ball = Instantiate(_ballPrefab);
-                ball.transform.parent = _ballsHolder;
+                var ball = Instantiate(prefabAndHolder.Item1);
+                ball.transform.parent = prefabAndHolder.Item2;
                 _ballsPool.Enqueue(ball);
                 _lifes.Value++;
-            });
+            }, Tuple.Create(_ballPrefab, _ballsHolder));
            
-            Slinqable.Repeat(0,2).ForEach(_ =>
+            Slinqable.Repeat(0,2).ForEach((_, prefabAndHolder) =>
             {
-                var ball = Instantiate(_ballHolderPrefab);
-                ball.transform.parent = _ballsHolder;
+                var ball = Instantiate(prefabAndHolder.Item1);
+                ball.transform.parent = prefabAndHolder.Item2;
                 _ballHoldersPool.Enqueue(ball);
-            });
+            }, Tuple.Create(_ballHolderPrefab, _ballsHolder));
             
             _bonus = Instantiate(_bonusPrefab);
         }
